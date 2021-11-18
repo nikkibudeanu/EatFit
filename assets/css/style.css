@@ -252,3 +252,47 @@ h1, h2 {
     border-radius: 20%;
 }
 
+/* hyperlinks section */
+
+#hyperlinks{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+   margin-left: 3%;
+   position:relative;
+
+ 
+
+}
+
+#hyperlinks img{
+    max-height: 90%;
+    max-width: 90%;
+ 
+    }
+
+
+    #hyperlinks h1{
+       
+        font-family: 'IBM Plex Sans', sans-serif;
+            text-transform: uppercase;
+            color: rgba(239, 246, 224, 0.9);
+            align-items: flex-end;
+            
+        }
+        
+    
+#hyperlinks a {
+    text-decoration: none;
+}
+
+
+
+
+
+#hyperlinks img:hover{
+   border: 2px solid #598392;
+
+    }
+
+
