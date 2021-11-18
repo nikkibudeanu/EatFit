@@ -190,4 +190,65 @@ h1, h2 {
 }
 
 
+/* menu of the day section */
+#moftheday{
+    text-align: justify;
+    font-size: 80%;
+    max-width: 70%;
+    position:relative;
+    left:15%;
+}
+
+#moftheday p{
+    margin:1%;
+}
+
+
+#breakfast{
+    margin:1%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2%;
+    border-bottom: 2px solid #3a3a3a;
+}
+
+#brimage img{
+    width:90%;
+    height: 90%;
+    border-radius: 20%;
+   
+}
+
+#lunch{
+    margin:1%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2%;
+    border-bottom: 2px solid #3a3a3a;
+    
+}
+
+#limage img{
+    width:80%;
+    height: 60%;
+    border-radius: 20%;
+}
+
+#dinner{
+    margin:1%;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    padding: 2%;
+    border-bottom: 2px solid #3a3a3a;
+    
+}
+
+#dimage img{
+    width:80%;
+    height: 60%;
+    border-radius: 20%;
+}
 
