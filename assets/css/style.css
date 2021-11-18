@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400&family=Space+Grotesk:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body, html{
+    height: 100%;
+    width:100%;
+   
+}
+
+#container{
+    background-color:rgba(239, 246, 224, 0.2);
+}
