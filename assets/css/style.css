@@ -55,13 +55,9 @@ h1{
 }
 
 /* navigation bar */
-.flex-container  {
-    display:flex;
-    justify-content: center;
-    align-items: center;
-  
-       
-  }
+header{
+    margin:2.5%;
+}
   
 
   .navbar {
@@ -86,20 +82,6 @@ h1{
   }
 
 
-.navbar li {
-    list-style-type: none;
-   
-}
-
-
-.navbar a {
-    text-decoration: none;
-    color: inherit;
-    background-color: transparent;
-    border-bottom: 1px solid #598392;
-    
-}
-
   .navbar a:hover {
     border-bottom: 2px solid #598392;
     border-top: 2px solid #598392;
@@ -107,11 +89,25 @@ h1{
    
 }
 
+.navbar li {
+    list-style-type: none;
+   
+}
+
+
+
+
+ 
+
 /*signup button */
 #signupbtn {
-    display:flex;
-    justify-content: flex-end;
-    margin-top:2%;
+    
+    position:absolute;
+    top:2%;
+    right:2%;
+    width:6%;
+    padding:2%;
+    margin-top: 1%;
    
 }
 
@@ -125,10 +121,7 @@ h1{
     font-size: 90%;
     font-weight: bold;
     display:block;
-    padding:1%;
 
-   
-    
 }
 
 
@@ -138,7 +131,7 @@ h1{
 }
 
 #signupbtn i{
-    color:#598392
+    color:#598392;
     }
 
 /* hero video and overlay text*/
