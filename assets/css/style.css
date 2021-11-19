@@ -262,16 +262,26 @@ header{
     width: 100%;
     display:flex;
     flex-flow:row wrap;
-    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
+    gap:1%;
+    
     
     
    
 }
+
+.flexleft{
+max-width:35%;
+}
+
 #breakfastrecipes2 {
     width: 100%;
     display:flex;
     flex-flow: row-reverse wrap;
     justify-content: space-around;
+    align-items: center;
+    gap:1%;
     
    
 }
@@ -281,6 +291,8 @@ header{
     display:flex;
     flex-flow:row wrap;
     justify-content: space-around;
+    align-items: center;
+    gap:1%;
     
    
 }
@@ -290,6 +302,8 @@ header{
     display:flex;
     flex-flow:row-reverse wrap;
     justify-content: space-around;
+    align-items: center;
+    gap:1%;
   
    
 }
@@ -302,6 +316,8 @@ header{
 
 #breakfastrecipes{
     text-align: justify;
+    margin:1%;
+    max-width: 90%;
 }
 
 
@@ -315,6 +331,8 @@ header{
     display:flex;
     flex-flow:row wrap;
     justify-content: space-around;
+    align-items: center;
+    gap:1%;
     
     
    
@@ -324,6 +342,8 @@ header{
     display:flex;
     flex-flow: row-reverse wrap;
     justify-content: space-around;
+    align-items: center;
+    gap:1%;
     
    
 }
@@ -333,6 +353,8 @@ header{
     display:flex;
     flex-flow:row wrap;
     justify-content: space-around;
+    align-items: center;
+    gap:1%;
     
    
 }
@@ -342,6 +364,8 @@ header{
     display:flex;
     flex-flow:row-reverse wrap;
     justify-content: space-around;
+    align-items: center;
+    gap:1%;
   
    
 }
@@ -361,8 +385,8 @@ header{
 /* signuppage*/
 #signuppage{
     background: url("../images/onion.jpg") no-repeat center center fixed;
-    min-height: 80%;
-    min-width: 80%;
+    min-height: 100%;
+    min-width: 100%;
     width: 100%;
     height: 100%;
     color:#fafafa;
@@ -376,7 +400,7 @@ header{
 
 #signupform{
     text-align:start;
-    background-color:rgba(18, 69, 89, 0.3);
+    background-color:rgba(18, 69, 89, 0.4);
     max-width:600px;
     position:absolute;
     left:30%;
@@ -388,7 +412,7 @@ header{
 .input{
     background:transparent;
     margin:5px 0 15px 0;
-    border:1px solid #598392;
+    border:1px solid white;
     color:#fafafa;
     width:100%;
     height:25px;
@@ -434,6 +458,8 @@ input[type="radio"]{
 }
 
 
+
+
 /* hyperlinks section */
 
 #hyperlinks{
@@ -457,7 +483,6 @@ input[type="radio"]{
        
         font-family: 'IBM Plex Sans', sans-serif;
             text-transform: uppercase;
-            color: rgba(239, 246, 224, 0.9);
             align-items: flex-end;
             
         }
