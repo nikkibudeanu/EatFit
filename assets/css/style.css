@@ -12,9 +12,6 @@ body, html{
    
 }
 
-#container{
-    background-color:rgba(239, 246, 224, 0.2);
-}
 
 /*  text */
 
@@ -33,11 +30,20 @@ h1, h2 {
     font-family: 'IBM Plex Sans', sans-serif;
 }
 
+h1{
+    font-size: 250%;
+    text-align: center;
+}
+
 
 /* logo */
 
 #logo img{
     width:6%;
+    position:absolute;
+    top:2%;
+    left:2%;
+
 
 }
 
@@ -50,9 +56,10 @@ h1, h2 {
 
 /* navigation bar */
 .flex-container  {
-    display: flex;
-  align-items:stretch;
-  align-content: flex-start;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+  
        
   }
   
@@ -61,7 +68,9 @@ h1, h2 {
       display:flex; 
       justify-content: center;
       flex-direction: row-reverse;
+      align-items: center;
       gap:5%;
+      margin-top: 2%;
 }
 
   .navbar a{
@@ -102,6 +111,7 @@ h1, h2 {
 #signupbtn {
     display:flex;
     justify-content: flex-end;
+    margin-top:2%;
    
 }
 
@@ -252,6 +262,109 @@ h1, h2 {
     border-radius: 20%;
 }
 
+/* breakfast page */
+
+   
+#breakfastrecipes1 {
+    width: 100%;
+    display:flex;
+    flex-flow:row wrap;
+    justify-content: space-around;
+    
+    
+   
+}
+#breakfastrecipes2 {
+    width: 100%;
+    display:flex;
+    flex-flow: row-reverse wrap;
+    justify-content: space-around;
+    
+   
+}
+
+#breakfastrecipes3 {
+    width: 100%;
+    display:flex;
+    flex-flow:row wrap;
+    justify-content: space-around;
+    
+   
+}
+
+#breakfastrecipes4 {
+    width: 100%;
+    display:flex;
+    flex-flow:row-reverse wrap;
+    justify-content: space-around;
+  
+   
+}
+
+#breakfastrecipes img{
+    max-height:90%;
+    max-width: 90%;
+    border-radius: 50%;
+}
+
+#breakfastrecipes{
+    text-align: justify;
+}
+
+
+
+  /* lunch page */
+
+
+   
+  #lunchrecipes1 {
+    width: 100%;
+    display:flex;
+    flex-flow:row wrap;
+    justify-content: space-around;
+    
+    
+   
+}
+#lunchrecipes2 {
+    width: 100%;
+    display:flex;
+    flex-flow: row-reverse wrap;
+    justify-content: space-around;
+    
+   
+}
+
+#lunchrecipes3 {
+    width: 100%;
+    display:flex;
+    flex-flow:row wrap;
+    justify-content: space-around;
+    
+   
+}
+
+#lunchrecipes4 {
+    width: 100%;
+    display:flex;
+    flex-flow:row-reverse wrap;
+    justify-content: space-around;
+  
+   
+}
+
+#lunchrecipes img{
+    max-height:90%;
+    max-width: 90%;
+    border-radius: 50%;
+}
+
+#lunchrecipes{
+    text-align: justify;
+}
+
+
+
 /* hyperlinks section */
 
 #hyperlinks{
@@ -260,10 +373,9 @@ h1, h2 {
     align-items: center;
    margin-left: 3%;
    position:relative;
-
- 
-
 }
+
+
 
 #hyperlinks img{
     max-height: 90%;
@@ -271,7 +383,7 @@ h1, h2 {
  
     }
 
-
+  
     #hyperlinks h1{
        
         font-family: 'IBM Plex Sans', sans-serif;
@@ -294,5 +406,32 @@ h1, h2 {
    border: 2px solid #598392;
 
     }
+
+
+    /* footer */
+
+    footer {
+        height: 150px;
+    }
+    
+    .icons {
+        text-align: center;
+    }
+    
+    .icons  li {
+        display: inline;
+    }
+    
+    .icons i {
+        font-size: 160%;
+        margin: 1%;
+        padding: 5%;
+        color: #3a3a3a;
+    }
+    
+    .icons i:hover{
+        color:#598392;
+    }
+
 
 
