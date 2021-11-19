@@ -57,6 +57,7 @@ h1{
 /* navigation bar */
 header{
     margin:2.5%;
+    
 }
   
 
@@ -116,7 +117,6 @@ header{
     text-decoration: none;
     color: inherit;
     background-color: transparent;
-    border-bottom: 1px solid #598392;
     font-family: 'Space Grotesk', sans-serif;
     font-size: 90%;
     font-weight: bold;
@@ -126,7 +126,7 @@ header{
 
 
 #signupbtn a:hover{
-    border: 2px solid #598392;
+    font-size: 100%;
     color:#598392;
 }
 
@@ -356,6 +356,82 @@ header{
     text-align: justify;
 }
 
+
+
+/* signuppage*/
+#signuppage{
+    background: url("../images/onion.jpg") no-repeat center center fixed;
+    min-height: 80%;
+    min-width: 80%;
+    width: 100%;
+    height: 100%;
+    color:#fafafa;
+    
+}
+
+#signuppage h2{
+    color:white;
+    text-align: center;
+}
+
+#signupform{
+    text-align:start;
+    background-color:rgba(18, 69, 89, 0.3);
+    max-width:600px;
+    position:absolute;
+    left:30%;
+    top:35%;
+    padding:30px;
+    font-weight: bold;
+}
+
+.input{
+    background:transparent;
+    margin:5px 0 15px 0;
+    border:1px solid #598392;
+    color:#fafafa;
+    width:100%;
+    height:25px;
+  
+}
+
+.radiobutton:hover{
+    background-color: #598392;
+}
+
+
+.input:hover{
+    background-color: rgba(239, 246, 224, 0.4);
+    border-radius:3px ;
+    border-color:#eff6e0;
+}
+
+
+#signupbutton{
+    margin-top:20px;
+    margin-left: 35%;
+    border-radius:5px;
+    padding:10px 30px;
+    text-align:center;
+    font-size:130%;
+    background-color:rgba(239, 246, 224, 0.4);
+    color:#fafafa;
+    display:block;
+}
+
+#signupbutton:hover{
+    background-color: rgba(18, 69, 89, 0.5);
+    border-color: #eff6e0;
+}
+
+
+input[type="radio"]{
+  height: 15px;
+  width: 15px;
+  background-color:#fafafa;
+  border-color: transparent;
+  margin:4%;
+}
 
 
 /* hyperlinks section */
