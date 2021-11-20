@@ -1,14 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400&family=Space+Grotesk:wght@300&display=swap');
 
-* {
-    margin: 0;
-    padding: 0;
-    border: none;
-}
 
 body, html{
     height: 100%;
     width:100%;
+   
+   
+   
    
 }
 
@@ -56,7 +54,7 @@ h1{
 
 /* navigation bar */
 header{
-    margin:2.5%;
+    margin-bottom:2.5%;
     
 }
   
@@ -78,7 +76,7 @@ header{
     background-color: transparent;
     border-bottom: 1px solid #598392;
     font-family: 'Space Grotesk', sans-serif;
-    font-size: 80%;
+    font-size: 90%;
 
   }
 
@@ -106,7 +104,7 @@ header{
     position:absolute;
     top:2%;
     right:2%;
-    width:6%;
+    width:10%;
     padding:2%;
     margin-top: 1%;
    
@@ -118,7 +116,7 @@ header{
     color: inherit;
     background-color: transparent;
     font-family: 'Space Grotesk', sans-serif;
-    font-size: 90%;
+    font-size: 100%;
     font-weight: bold;
     display:block;
 
@@ -126,7 +124,7 @@ header{
 
 
 #signupbtn a:hover{
-    font-size: 100%;
+    font-size: 110%;
     color:#598392;
 }
 
@@ -381,10 +379,68 @@ max-width:35%;
 }
 
 
+/* dinner page*/
+
+ 
+#dinnerrecipes1 {
+    width: 100%;
+    display:flex;
+    flex-flow:row wrap;
+    justify-content: space-around;
+    align-items: center;
+    gap:1%;
+    
+    
+   
+}
+#dinnerrecipes2 {
+    width: 100%;
+    display:flex;
+    flex-flow: row-reverse wrap;
+    justify-content: space-around;
+    align-items: center;
+    gap:1%;
+    
+   
+}
+
+#dinnerrecipes3 {
+    width: 100%;
+    display:flex;
+    flex-flow:row wrap;
+    justify-content: space-around;
+    align-items: center;
+    gap:1%;
+    
+   
+}
+
+#dinnerrecipes4 {
+    width: 100%;
+    display:flex;
+    flex-flow:row-reverse wrap;
+    justify-content: space-around;
+    align-items: center;
+    gap:1%;
+  
+   
+}
+
+#dinnerrecipes img{
+    max-height:90%;
+    max-width: 90%;
+    border-radius: 50%;
+}
+
+#ldinnerrecipes{
+    text-align: justify;
+}
+
+
 
 /* signuppage*/
 #signuppage{
-    background: url("../images/onion.jpg") no-repeat center center fixed;
+    background: url("../images/onion2.jpg") no-repeat center center fixed;
     min-height: 100%;
     min-width: 100%;
     width: 100%;
@@ -401,7 +457,7 @@ max-width:35%;
 #signupform{
     text-align:start;
     background-color:rgba(18, 69, 89, 0.4);
-    max-width:600px;
+    max-width:500px;
     position:absolute;
     left:30%;
     top:35%;
@@ -452,38 +508,77 @@ max-width:35%;
 input[type="radio"]{
   height: 15px;
   width: 15px;
-  background-color:#fafafa;
-  border-color: transparent;
-  margin:4%;
+  background-color:transparent;
+  margin:2%;
 }
 
 
+/* about page*/
+#flexabout{
+    width: 100%;
+    display:flex;
+    flex-direction:row ;
+    justify-content: space-evenly;
+    
+
+}
+
+#flexabout video{
+    max-width: 20%;
+    width:33%;
+    border-radius: 50%;
+    -webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+}
+
+#flexabout video:hover{
+    -webkit-filter: grayscale(0);
+	filter: grayscale(0);
+    border-radius: 30%;
+
+}
 
 
 /* hyperlinks section */
 
 #hyperlinks{
+    max-width:100%;
+    width:100%;
     display:flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
-   margin-left: 3%;
-   position:relative;
+    gap:4%;
+   
 }
 
 
 
+
+
 #hyperlinks img{
-    max-height: 90%;
-    max-width: 90%;
- 
+    max-height: 95%;
+    max-width: 95%;
+    -webkit-filter: grayscale(40%);
+	filter: grayscale(40%);
+    
+
     }
 
+#hyperlinks img:hover{
+    -webkit-filter: grayscale(0);
+	filter: grayscale(0);
+    border-radius: 10%;
+	
+}
   
     #hyperlinks h1{
        
         font-family: 'IBM Plex Sans', sans-serif;
             text-transform: uppercase;
-            align-items: flex-end;
+            color:rgba(239, 246, 224, 0.9);
+            font-size:400%;
+           
+          
             
         }
         
@@ -496,10 +591,6 @@ input[type="radio"]{
 
 
 
-#hyperlinks img:hover{
-   border: 2px solid #598392;
-
-    }
 
 
     /* footer */
