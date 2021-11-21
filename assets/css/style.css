@@ -5,9 +5,6 @@ body, html{
     height: 100%;
     width:100%;
    
-   
-   
-   
 }
 
 
@@ -40,8 +37,6 @@ h1{
     width:6%;
     position:absolute;
     top:2%;
-    left:2%;
-
 
 }
 
@@ -132,22 +127,25 @@ header{
     color:#598392;
     }
 
+
 /* hero video and overlay text*/
 #video-outer{
-    width: 100%;
+    max-width: 100%;
+    max-height: 100%;
     overflow: hidden;
     display:flex;
     justify-content: flex-start;
     align-items: center;
     position:relative;
+    left:-0.5%;
    
    
 }
 
 #main-video{
-    min-width: 100%;
-  min-height: 100%;
-  
+ max-width: 100%;
+ max-height: 100%;
+width:100%;
  
 }
 
@@ -196,19 +194,20 @@ header{
 
 /* menu of the day section */
 #moftheday{
-    text-align: justify;
+    text-align: center;
     font-size: 80%;
     max-width: 70%;
     position:relative;
     left:15%;
+    color:#598392;
+
+
 }
 
-#moftheday img:hover{
-width: 100%;
-}
 
-#moftheday p{
+#moftheday p, #moftheday h2{
     margin:1%;
+    color:#555b6e;
 }
 
 
@@ -252,7 +251,6 @@ width: 100%;
     justify-content:center;
     align-items: center;
     padding: 2%;
-    border-bottom: 2px solid #3a3a3a;
     
 }
 
@@ -261,6 +259,7 @@ width: 100%;
     height: 60%;
     border-radius: 20%;
 }
+
 
 /* breakfast page */
 
@@ -441,7 +440,7 @@ max-width:35%;
     border-radius: 50%;
 }
 
-#ldinnerrecipes{
+#dinnerrecipes{
     text-align: justify;
 }
 
@@ -571,20 +570,16 @@ input[type="radio"]{
 /* hyperlinks section */
 
 #hyperlinks{
-    max-width:900%;
+    max-width:100%;
     width:100%;
     display:flex;
-    justify-content: space-around;
-    align-items: center;
-    position: relative;
-    bottom:10%;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    position:relative;
    
  
    
 }
-
-
-
 
 
 #hyperlinks img{
@@ -602,23 +597,7 @@ input[type="radio"]{
 	
 }
   
-    #hyperlinks h1{
-       
-        font-family: 'IBM Plex Sans', sans-serif;
-            text-transform: uppercase;
-            color:rgba(239, 246, 224, 0.9);
-            font-size:400%;
-           
-          
-            
-        }
-        
     
-#hyperlinks a {
-    text-decoration: none;
-}
-
-
 
 
 
@@ -654,60 +633,120 @@ input[type="radio"]{
 
     /* Media queries */
 
-/* For larger to medium screens size from 1200px wide and down */
-@media screen and (max-width: 1200px) {
-#moftheday{
+
+
+
+@media screen and (max-width: 600px) {
+
+    
+   #logo img {
+    width:20%;
+    position:absolute;
+    top:2%;
+    
+   }
+
+   #moftheday{
     width: 65%;
-    height: 1200px;
-    margin: 0 auto;
-}
-
-
-#breakfast{
-flex-wrap: wrap;
-justify-content: center;
-}
-
-
-#lunch{
-flex-wrap:wrap;
-justify-content: center;
-}
-
-#dinner{
-    flex-wrap:wrap;
-    justify-content: center;
-}
-
-
-
-
-}
-
-
-@media screen and (max-width: 950px) {
-
+    height:100%;
+    margin-right:30%;
+    font-size: 100%;;
    
 
+}
+
+#breakfast{
+    flex-wrap: wrap;
+    justify-content: center;
+    }
+    
+    
+    
+    #lunch{
+    flex-wrap:wrap;
+    justify-content: center;
+    }
+    
+    
+    #dinner{
+        flex-wrap:wrap;
+        justify-content: center;
+    }
+    
+
+   header{
+    margin-bottom: 23%;
+   }
+
+   #hyperlinks{
+       display:none;
+   }
+
+   #hyperlinks h2{
+    display:none;
+}
+
+  
+   
     .navbar {
         display: flex;
         justify-content: space-evenly;
         width:100%;
         position: fixed;
-        background-color: white;
-        bottom: 0;
+        background-color:rgba(18, 69, 89, 0.9);
+        bottom: -17px;
         left:0;
         z-index: 99;
         padding: 2%;
+        color:white;
+        margin-right:2%;
+        }
+
+
+        .navbar a{
+            border:2px solid #598392;
+            border-radius: 20%;
+            margin: 2%;
+            margin-right:3%;
         
         }
 
-        header{
-            margin-bottom: 10%;
+
+        .navbar a:hover{
+            border:2px solid white;
+            color:white;
         }
 
+    #signupbtn{
+    position:absolute;
+    right:0;
+    top:12%;
+    border: 2px solid #598392;
+    padding:0;
+    
+
+    
+    }
+
+
+    #main-video{
+    
+       width:100%;
+       max-width: 100%;
         
+       }
        
-        
+     footer{
+         position:fixed;
+         bottom:15%;
+         right:2px;
+         font-size: 130%;
+         width:10%;
+         
+     }  
+
+     #container{
+        margin-bottom: 20%;
+    }
        
 }
