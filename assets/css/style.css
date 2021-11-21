@@ -21,7 +21,7 @@ p {
     font-family: 'Space Grotesk', sans-serif;
 }
 
-h1, h2 {
+h1, h2, h3 {
     font-family: 'IBM Plex Sans', sans-serif;
 }
 
@@ -144,8 +144,8 @@ header{
 
 #main-video{
  max-width: 100%;
- max-height: 100%;
 width:100%;
+height:450px;
  
 }
 
@@ -156,7 +156,7 @@ width:100%;
     top:auto;
     left:0;
     text-align: center;
-    background:rgba(18, 69, 89, 0.3);
+    background:rgba(18, 69, 89, 0.5);
     height:100%;
     width:100%;
   
@@ -597,10 +597,6 @@ input[type="radio"]{
 	
 }
   
-    
-
-
-
 
 
     /* footer */
@@ -636,24 +632,44 @@ input[type="radio"]{
 
 
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 600px)  {
 
     
    #logo img {
     width:20%;
     position:absolute;
     top:2%;
+    left:2%;
     
+   }
+
+
+   header{
+       margin-bottom:10%;
    }
 
    #moftheday{
     width: 65%;
     height:100%;
     margin-right:30%;
-    font-size: 100%;;
    
-
 }
+
+
+#moftheday h1{
+    font-size: 150%;
+}
+
+#moftheday h2{
+    font-size: 90%;
+}
+
+
+#moftheday p{
+    font-size: 80%;
+}
+
+
 
 #breakfast{
     flex-wrap: wrap;
@@ -675,7 +691,7 @@ input[type="radio"]{
     
 
    header{
-    margin-bottom: 23%;
+    margin-bottom: 25%;
    }
 
    #hyperlinks{
@@ -690,25 +706,21 @@ input[type="radio"]{
    
     .navbar {
         display: flex;
-        justify-content: space-evenly;
+        justify-content:space-evenly;
         width:100%;
         position: fixed;
         background-color:rgba(18, 69, 89, 0.9);
-        bottom: -17px;
-        left:0;
+        bottom: -18px;
+        left:-10.5%;
         z-index: 99;
-        padding: 2%;
         color:white;
-        margin-right:2%;
+        gap:0;
         }
 
 
         .navbar a{
             border:2px solid #598392;
-            border-radius: 20%;
-            margin: 2%;
-            margin-right:3%;
-        
+ 
         }
 
 
@@ -719,13 +731,11 @@ input[type="radio"]{
 
     #signupbtn{
     position:absolute;
-    right:0;
-    top:12%;
-    border: 2px solid #598392;
-    padding:0;
-    
-
-    
+    right:5%;
+    width:25%;
+    padding:2%;
+    top:4%;
+    background-color: rgba(18, 69, 89, 0.4);
     }
 
 
@@ -733,20 +743,134 @@ input[type="radio"]{
     
        width:100%;
        max-width: 100%;
-        
+  
+    
        }
        
      footer{
          position:fixed;
-         bottom:15%;
-         right:2px;
+         bottom:11%;
+         right:5%;
          font-size: 130%;
-         width:10%;
+         width:20%;
          
      }  
 
+     .icons i {
+        color:#598392;
+     }
+
      #container{
-        margin-bottom: 20%;
+        margin-bottom: 30%;
     }
-       
+
+    #background h1 {
+        text-align: center;
+        font-size: 350%;
+        
+    }
+    
+
+    #background h3 {
+        text-align: center;
+        font-size: 100%;
+        
+    }
+    
+    
+    
+    #background a{
+        color: inherit;
+        font-size:30%;
+    }
+
+
+    /* BREAKFAST PAGE*/
+
+    #breakfastrecipes{
+        text-align: justify;
+        width: 200%;
+    }
+
+    #breakfastrecipes h2, #breakfastrecipes h3{
+        text-align: center;
+    }
+
+    .flexleft{
+        max-width:90%;
+        }
+
+    /* LUNCH PAGE */
+    #lunchtrecipes{
+        text-align: justify;
+        width: 200%;
+    }
+
+    #lunchrecipes h2, #lunchrecipes h3{
+        text-align: center;
+    }
+
+    /* Dinner PAGE */
+    #dinnerrecipes{
+        text-align: justify;
+        width: 200%;
+    }
+
+    #dinnerrecipes h2, #dinnerrecipes h3{
+        text-align: center;
+    }
+
+
+    /* About Page */
+    #flexabout{
+        flex-wrap: wrap;
+    
+    }
+    
+    #flexabout video{
+        max-width: 100%;
+        width:30%;
+        border-radius: 50%;
+        -webkit-filter: grayscale(0);
+        filter: grayscale(0);
+    }
+    
+    #aboutcontent{
+        width: 100%;
+        flex-wrap: wrap;
+    }
+        
+    .aboutinfo{
+        width:90%;
+        text-align: center;
+        margin-right: 10%;
+        font-size: 65%;
+    }
+
+
+/* Signup page*/
+
+#signupform{
+    text-align:start;
+    max-width: 100%;
+    position:absolute;
+    left:2%;
+    top:20%;
+    margin-bottom: 3%;
+    
+
+   
+   
+}
+
+#signupbutton{
+    margin-top:20px;
+    margin-left: 28%;
+
+}
+
+#signupfooter .icons i {
+    color:#eff6e0;
+}
+
 }
