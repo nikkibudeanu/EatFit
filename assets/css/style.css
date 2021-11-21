@@ -140,11 +140,14 @@ header{
     justify-content: flex-start;
     align-items: center;
     position:relative;
+   
+   
 }
 
 #main-video{
     min-width: 100%;
   min-height: 100%;
+  
  
 }
 
@@ -200,6 +203,10 @@ header{
     left:15%;
 }
 
+#moftheday img:hover{
+width: 100%;
+}
+
 #moftheday p{
     margin:1%;
 }
@@ -212,11 +219,13 @@ header{
     align-items: center;
     padding: 2%;
     border-bottom: 2px solid #3a3a3a;
+   
+
 }
 
 #brimage img{
-    width:90%;
-    height: 90%;
+    width:80%;
+    height: 80%;
     border-radius: 20%;
    
 }
@@ -232,7 +241,7 @@ header{
 }
 
 #limage img{
-    width:80%;
+    width:90%;
     height: 60%;
     border-radius: 20%;
 }
@@ -513,12 +522,14 @@ input[type="radio"]{
 }
 
 
+
+
 /* about page*/
 #flexabout{
     width: 100%;
     display:flex;
     flex-direction:row ;
-    justify-content: space-evenly;
+    justify-content: space-around;
     
 
 }
@@ -537,6 +548,21 @@ input[type="radio"]{
     border-radius: 10%;
 
 }
+
+#aboutcontent{
+    width: 90%;
+    display:flex;
+    flex-direction:row ;
+    justify-content: space-around;
+    margin-left:5%;
+}
+
+.aboutinfo{
+    margin:1%;
+    width:30%;
+    text-align: justify;
+}
+
 
 
 /* hyperlinks section */
@@ -620,3 +646,7 @@ input[type="radio"]{
 
 
 
+
+    /* Media queries */
+
+/* For larger to medium screens size from 1200px wide and down */
