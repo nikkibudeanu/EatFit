@@ -563,17 +563,23 @@ input[type="radio"]{
     text-align: justify;
 }
 
+.aboutinfo h2{
+    text-align: center;
+}
 
 
 /* hyperlinks section */
 
 #hyperlinks{
-    max-width:100%;
+    max-width:900%;
     width:100%;
     display:flex;
     justify-content: space-around;
     align-items: center;
-    gap:4%;
+    position: relative;
+    bottom:10%;
+   
+ 
    
 }
 
@@ -582,7 +588,6 @@ input[type="radio"]{
 
 
 #hyperlinks img{
-    max-height: 95%;
     max-width: 95%;
     -webkit-filter: grayscale(40%);
 	filter: grayscale(40%);
@@ -650,3 +655,59 @@ input[type="radio"]{
     /* Media queries */
 
 /* For larger to medium screens size from 1200px wide and down */
+@media screen and (max-width: 1200px) {
+#moftheday{
+    width: 65%;
+    height: 1200px;
+    margin: 0 auto;
+}
+
+
+#breakfast{
+flex-wrap: wrap;
+justify-content: center;
+}
+
+
+#lunch{
+flex-wrap:wrap;
+justify-content: center;
+}
+
+#dinner{
+    flex-wrap:wrap;
+    justify-content: center;
+}
+
+
+
+
+}
+
+
+@media screen and (max-width: 950px) {
+
+   
+
+    .navbar {
+        display: flex;
+        justify-content: space-evenly;
+        width:100%;
+        position: fixed;
+        background-color: white;
+        bottom: 0;
+        left:0;
+        z-index: 99;
+        padding: 2%;
+        
+        }
+
+        header{
+            margin-bottom: 10%;
+        }
+
+        
+       
+        
+       
+}
