@@ -143,9 +143,10 @@ header{
 }
 
 #main-video{
- max-width: 100%;
+max-width: 100%;
 width:100%;
-height:450px;
+height:480px;
+overflow:hidden;
  
 }
 
@@ -183,7 +184,6 @@ height:450px;
     color: inherit;
     font-size:170%;
 }
-
 
 
 #background a:hover{
@@ -582,6 +582,7 @@ input[type="radio"]{
 }
 
 
+
 #hyperlinks img{
     max-width: 95%;
     -webkit-filter: grayscale(40%);
@@ -622,6 +623,7 @@ input[type="radio"]{
     
     .icons i:hover{
         color:#598392;
+        font-size: 190%;
     }
 
 
@@ -643,7 +645,11 @@ input[type="radio"]{
     
    }
 
+   #main-video{
+       display:none;
+   }
 
+ 
    header{
        margin-bottom:10%;
    }
@@ -739,14 +745,7 @@ input[type="radio"]{
     }
 
 
-    #main-video{
-    
-       width:100%;
-       max-width: 100%;
-  
-    
-       }
-       
+
      footer{
          position:fixed;
          bottom:11%;
