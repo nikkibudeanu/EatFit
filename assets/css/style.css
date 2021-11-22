@@ -15,34 +15,41 @@ body {
     font-weight: 300;
     color: #555b6e;
     font-family: 'Space Grotesk', sans-serif;
+    margin-left:0;
 }
 
 p {
     font-family: 'Space Grotesk', sans-serif;
+    font-size: 1rem;
 }
 
 h1, h2, h3 {
     font-family: 'IBM Plex Sans', sans-serif;
+    text-align: center;
+    font-size: 2rem;
 }
 
-h1{
-    font-size: 250%;
-    text-align: center;
+hr {
+    border-top:1px solid #598392;
 }
+
 
 
 /* logo */
 
 #logo img{
-    width:6%;
+    width:7%;
     position:absolute;
     top:2%;
+    left:5px;
 
 }
 
 
 #logo img:hover{
-    border: 2px solid #598392;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, 
+    rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, 
+    rgba(0, 0, 0, 0.09) 0px -3px 5px;
 
 
 }
@@ -71,14 +78,12 @@ header{
     background-color: transparent;
     border-bottom: 1px solid #598392;
     font-family: 'Space Grotesk', sans-serif;
-    font-size: 90%;
+    font-size: 1rem;
 
   }
 
 
   .navbar a:hover {
-    border-bottom: 2px solid #598392;
-    border-top: 2px solid #598392;
     color:#598392;
    
 }
@@ -97,8 +102,8 @@ header{
 #signupbtn {
     
     position:absolute;
-    top:2%;
-    right:2%;
+    top:1%;
+    right:1%;
     width:10%;
     padding:2%;
     margin-top: 1%;
@@ -111,15 +116,15 @@ header{
     color: inherit;
     background-color: transparent;
     font-family: 'Space Grotesk', sans-serif;
-    font-size: 100%;
+    font-size: 1rem;
     font-weight: bold;
     display:block;
-
+  
 }
 
 
 #signupbtn a:hover{
-    font-size: 110%;
+    font-size: 1.5rem;
     color:#598392;
 }
 
@@ -137,7 +142,6 @@ header{
     justify-content: flex-start;
     align-items: center;
     position:relative;
-    left:-0.5%;
    
    
 }
@@ -195,28 +199,25 @@ overflow:hidden;
 /* menu of the day section */
 #moftheday{
     text-align: center;
-    font-size: 80%;
+    font-size: 1rem;
     max-width: 70%;
     position:relative;
-    left:15%;
     color:#598392;
-
+    padding:0 10px; 
+   margin-left: 250px;
 
 }
 
 
 #moftheday p, #moftheday h2{
-    margin:1%;
     color:#555b6e;
 }
 
 
 #breakfast{
-    margin:1%;
     display:flex;
     justify-content: center;
     align-items: center;
-    padding: 2%;
     border-bottom: 2px solid #3a3a3a;
    
 
@@ -230,11 +231,9 @@ overflow:hidden;
 }
 
 #lunch{
-    margin:1%;
     display:flex;
     justify-content: center;
     align-items: center;
-    padding: 2%;
     border-bottom: 2px solid #3a3a3a;
     
 }
@@ -246,11 +245,9 @@ overflow:hidden;
 }
 
 #dinner{
-    margin:1%;
     display:flex;
     justify-content:center;
     align-items: center;
-    padding: 2%;
     
 }
 
@@ -453,31 +450,32 @@ max-width:35%;
     min-width: 100%;
     width: 100%;
     height: 100%;
-    color:#fafafa;
     
 }
 
 #signuppage h2{
-    color:white;
+    color:#598392;
     text-align: center;
+
 }
 
 #signupform{
-    text-align:start;
-    background-color:rgba(18, 69, 89, 0.4);
-    max-width:500px;
+    text-align:center;
+    background-color:white;
+    max-width:600px;
     position:absolute;
-    left:30%;
-    top:35%;
+    left:25%;
+    top:30%;
     padding:30px;
     font-weight: bold;
+    border-radius: 10px;
 }
 
 .input{
     background:transparent;
     margin:5px 0 15px 0;
-    border:1px solid white;
-    color:#fafafa;
+    border:1px solid #598392;
+    color:#1e4a5c;
     width:100%;
     height:25px;
   
@@ -489,8 +487,8 @@ max-width:35%;
 
 
 .input:hover{
-    background-color: rgba(239, 246, 224, 0.4);
-    border-radius:3px ;
+    background-color: rgba(18, 69, 89, 0.5);
+    border-radius:10px;
     border-color:#eff6e0;
 }
 
@@ -503,7 +501,7 @@ max-width:35%;
     text-align:center;
     font-size:130%;
     background-color:rgba(239, 246, 224, 0.4);
-    color:#fafafa;
+    color:#598392;
     display:block;
 }
 
@@ -516,7 +514,6 @@ max-width:35%;
 input[type="radio"]{
   height: 15px;
   width: 15px;
-  background-color:transparent;
   margin:2%;
 }
 
@@ -545,7 +542,9 @@ input[type="radio"]{
     -webkit-filter: grayscale(0);
 	filter: grayscale(0);
     border-radius: 10%;
-
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, 
+    rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, 
+    rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
 #aboutcontent{
@@ -576,6 +575,7 @@ input[type="radio"]{
     justify-content: space-evenly;
     align-items: flex-start;
     position:relative;
+    margin-bottom:40px;
    
  
    
@@ -585,16 +585,18 @@ input[type="radio"]{
 
 #hyperlinks img{
     max-width: 95%;
-    -webkit-filter: grayscale(40%);
-	filter: grayscale(40%);
+    -webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
     
-
     }
 
 #hyperlinks img:hover{
     -webkit-filter: grayscale(0);
 	filter: grayscale(0);
     border-radius: 10%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, 
+    rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, 
+    rgba(0, 0, 0, 0.09) 0px -3px 5px;
 	
 }
   
@@ -615,15 +617,13 @@ input[type="radio"]{
     }
     
     .icons i {
-        font-size: 160%;
-        margin: 1%;
-        padding: 5%;
+        font-size: 2rem;
         color: #3a3a3a;
     }
     
     .icons i:hover{
         color:#598392;
-        font-size: 190%;
+        font-size: 2.1rem;
     }
 
 
@@ -645,35 +645,23 @@ input[type="radio"]{
     
    }
 
-   #main-video{
-       display:none;
-   }
-
+   
  
    header{
        margin-bottom:10%;
    }
 
+
+
    #moftheday{
-    width: 65%;
-    height:100%;
-    margin-right:30%;
+    width: 80%;
+    max-width: 100%;
+    margin-left:20px;
+
    
 }
 
 
-#moftheday h1{
-    font-size: 150%;
-}
-
-#moftheday h2{
-    font-size: 90%;
-}
-
-
-#moftheday p{
-    font-size: 80%;
-}
 
 
 
@@ -717,10 +705,11 @@ input[type="radio"]{
         position: fixed;
         background-color:rgba(18, 69, 89, 0.9);
         bottom: -18px;
-        left:-10.5%;
+        left:-10%;
         z-index: 99;
         color:white;
         gap:0;
+        box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px;
         }
 
 
@@ -747,16 +736,22 @@ input[type="radio"]{
 
 
      footer{
-         position:fixed;
-         bottom:11%;
-         right:5%;
-         font-size: 130%;
-         width:20%;
-         
+        position: fixed;
+        right: 0px;
+        top: 50%;
+        width: 50px;
+        background:rgba(18, 69, 89, 0.9);
+        height: 200px;
+        border-radius: 10px 0px 0px 10px;
+        box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px;
+        transform: translateY(-50%);
+
      }  
 
+    
      .icons i {
-        color:#598392;
+        color:white;
+        padding-right: 10px;
      }
 
      #container{
@@ -868,8 +863,7 @@ input[type="radio"]{
 
 }
 
-#signupfooter .icons i {
-    color:#eff6e0;
-}
+
+
 
 }
