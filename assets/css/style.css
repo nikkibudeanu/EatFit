@@ -1,869 +1,711 @@
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400&family=Space+Grotesk:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400&family=Space+Grotesk:wght@300&display=swap");
 
-
-body, html{
+body,
+html {
     height: 100%;
-    width:100%;
-   
+    width: 100%;
 }
-
 
 /*  text */
 
- 
 body {
     font-weight: 300;
     color: #555b6e;
-    font-family: 'Space Grotesk', sans-serif;
-    margin-left:0;
+    font-family: "Space Grotesk", sans-serif;
+    margin-left: 0;
 }
 
 p {
-    font-family: 'Space Grotesk', sans-serif;
+    font-family: "Space Grotesk", sans-serif;
     font-size: 1rem;
 }
 
-h1, h2, h3 {
-    font-family: 'IBM Plex Sans', sans-serif;
+h1,
+h2,
+h3 {
+    font-family: "IBM Plex Sans", sans-serif;
     text-align: center;
     font-size: 2rem;
 }
 
 hr {
-    border-top:1px solid #598392;
+    border-top: 1px solid #598392;
 }
-
-
 
 /* logo */
 
-#logo img{
-    width:7%;
-    position:absolute;
-    top:2%;
-    left:5px;
-
+#logo img {
+    width: 7%;
+    position: absolute;
+    top: 2%;
+    left: 5px;
 }
 
-
-#logo img:hover{
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, 
-    rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, 
-    rgba(0, 0, 0, 0.09) 0px -3px 5px;
-
-
+#logo img:hover {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
 /* navigation bar */
-header{
-    margin-bottom:2.5%;
-    
-}
-  
-
-  .navbar {
-      display:flex; 
-      justify-content: center;
-      flex-direction: row-reverse;
-      align-items: center;
-      gap:5%;
-      margin-top: 2%;
+header {
+    margin-bottom: 2.5%;
 }
 
-  .navbar a{
+.navbar {
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    align-items: center;
+    gap: 5%;
+    margin-top: 2%;
+}
+
+.navbar a {
     display: block;
     padding: 1em;
     text-decoration: none;
     color: inherit;
     background-color: transparent;
     border-bottom: 1px solid #598392;
-    font-family: 'Space Grotesk', sans-serif;
+    font-family: "Space Grotesk", sans-serif;
     font-size: 1rem;
+}
 
-  }
-
-
-  .navbar a:hover {
-    color:#598392;
-   
+.navbar a:hover {
+    color: #598392;
 }
 
 .navbar li {
     list-style-type: none;
-   
 }
-
-
-
-
- 
 
 /*signup button */
 #signupbtn {
-    
-    position:absolute;
-    top:1%;
-    right:1%;
-    width:10%;
-    padding:2%;
+    position: absolute;
+    top: 1%;
+    right: 1%;
+    width: 10%;
+    padding: 2%;
     margin-top: 1%;
-   
 }
 
-
-#signupbtn a{
+#signupbtn a {
     text-decoration: none;
     color: inherit;
     background-color: transparent;
-    font-family: 'Space Grotesk', sans-serif;
+    font-family: "Space Grotesk", sans-serif;
     font-size: 1rem;
     font-weight: bold;
-    display:block;
-  
+    display: block;
 }
 
-
-#signupbtn a:hover{
+#signupbtn a:hover {
     font-size: 1.5rem;
-    color:#598392;
+    color: #598392;
 }
 
-#signupbtn i{
-    color:#598392;
-    }
-
+#signupbtn i {
+    color: #598392;
+}
 
 /* hero video and overlay text*/
-#video-outer{
+#video-outer {
     max-width: 100%;
     max-height: 100%;
     overflow: hidden;
-    display:flex;
+    display: flex;
     justify-content: flex-start;
     align-items: center;
-    position:relative;
-   
-   
+    position: relative;
 }
 
-#main-video{
-max-width: 100%;
-width:100%;
-height:480px;
-overflow:hidden;
- 
+#main-video {
+    max-width: 100%;
+    width: 100%;
+    height: 480px;
+    overflow: hidden;
 }
 
-
-
-#background{
-    position:absolute;
-    top:auto;
-    left:0;
+#background {
+    position: absolute;
+    top: auto;
+    left: 0;
     text-align: center;
-    background:rgba(18, 69, 89, 0.5);
-    height:100%;
-    width:100%;
-  
+    background: rgba(18, 69, 89, 0.5);
+    height: 100%;
+    width: 100%;
 }
-
-
 
 #background h1 {
-
     font-size: 500%;
-    color:rgb(	239, 246, 224);
+    color: rgb(239, 246, 224);
     text-transform: uppercase;
 }
 
-
-#background h3{
-    color:white;
+#background h3 {
+    color: white;
 }
 
-
-
-#background a{
+#background a {
     text-decoration: none;
     color: inherit;
-    font-size:170%;
+    font-size: 170%;
 }
 
-
-#background a:hover{
-    color:#eff6e0;
-    font-size:300%;
+#background a:hover {
+    color: #eff6e0;
+    font-size: 300%;
 }
-
 
 /* menu of the day section */
-#moftheday{
+#moftheday {
     text-align: center;
     font-size: 1rem;
     max-width: 70%;
-    position:relative;
-    color:#598392;
-    padding:0 10px; 
-   margin-left: 250px;
-
+    position: relative;
+    color: #598392;
+    padding: 0 10px;
+    margin-left: 250px;
 }
 
-
-#moftheday p, #moftheday h2{
-    color:#555b6e;
+#moftheday p,
+#moftheday h2 {
+    color: #555b6e;
 }
 
-
-#breakfast{
-    display:flex;
+#breakfast {
+    display: flex;
     justify-content: center;
     align-items: center;
     border-bottom: 2px solid #3a3a3a;
-   
-
 }
 
-#brimage img{
-    width:80%;
+#brimage img {
+    width: 80%;
     height: 80%;
     border-radius: 20%;
-   
 }
 
-#lunch{
-    display:flex;
+#lunch {
+    display: flex;
     justify-content: center;
     align-items: center;
     border-bottom: 2px solid #3a3a3a;
-    
 }
 
-#limage img{
-    width:90%;
+#limage img {
+    width: 90%;
     height: 60%;
     border-radius: 20%;
 }
 
-#dinner{
-    display:flex;
-    justify-content:center;
+#dinner {
+    display: flex;
+    justify-content: center;
     align-items: center;
-    
 }
 
-#dimage img{
-    width:80%;
+#dimage img {
+    width: 80%;
     height: 60%;
     border-radius: 20%;
 }
-
 
 /* breakfast page */
 
-   
 #breakfastrecipes1 {
     width: 100%;
-    display:flex;
-    flex-flow:row wrap;
+    display: flex;
+    flex-flow: row wrap;
     justify-content: center;
     align-items: center;
-    gap:1%;
-    
-    
-    
-   
+    gap: 1%;
 }
 
-.flexleft{
-max-width:35%;
+.flexleft {
+    max-width: 35%;
 }
 
 #breakfastrecipes2 {
     width: 100%;
-    display:flex;
+    display: flex;
     flex-flow: row-reverse wrap;
     justify-content: space-around;
     align-items: center;
-    gap:1%;
-    
-   
+    gap: 1%;
 }
 
 #breakfastrecipes3 {
     width: 100%;
-    display:flex;
-    flex-flow:row wrap;
+    display: flex;
+    flex-flow: row wrap;
     justify-content: space-around;
     align-items: center;
-    gap:1%;
-    
-   
+    gap: 1%;
 }
 
 #breakfastrecipes4 {
     width: 100%;
-    display:flex;
-    flex-flow:row-reverse wrap;
+    display: flex;
+    flex-flow: row-reverse wrap;
     justify-content: space-around;
     align-items: center;
-    gap:1%;
-  
-   
+    gap: 1%;
 }
 
-#breakfastrecipes img{
-    max-height:90%;
+#breakfastrecipes img {
+    max-height: 90%;
     max-width: 90%;
     border-radius: 50%;
 }
 
-#breakfastrecipes{
+#breakfastrecipes {
     text-align: justify;
-    margin:1%;
+    margin: 1%;
     max-width: 90%;
 }
 
+/* lunch page */
 
-
-  /* lunch page */
-
-
-   
-  #lunchrecipes1 {
+#lunchrecipes1 {
     width: 100%;
-    display:flex;
-    flex-flow:row wrap;
+    display: flex;
+    flex-flow: row wrap;
     justify-content: space-around;
     align-items: center;
-    gap:1%;
-    
-    
-   
+    gap: 1%;
 }
 #lunchrecipes2 {
     width: 100%;
-    display:flex;
+    display: flex;
     flex-flow: row-reverse wrap;
     justify-content: space-around;
     align-items: center;
-    gap:1%;
-    
-   
+    gap: 1%;
 }
 
 #lunchrecipes3 {
     width: 100%;
-    display:flex;
-    flex-flow:row wrap;
+    display: flex;
+    flex-flow: row wrap;
     justify-content: space-around;
     align-items: center;
-    gap:1%;
-    
-   
+    gap: 1%;
 }
 
 #lunchrecipes4 {
     width: 100%;
-    display:flex;
-    flex-flow:row-reverse wrap;
+    display: flex;
+    flex-flow: row-reverse wrap;
     justify-content: space-around;
     align-items: center;
-    gap:1%;
-  
-   
+    gap: 1%;
 }
 
-#lunchrecipes img{
-    max-height:90%;
+#lunchrecipes img {
+    max-height: 90%;
     max-width: 90%;
     border-radius: 50%;
 }
 
-#lunchrecipes{
+#lunchrecipes {
     text-align: justify;
 }
 
-
 /* dinner page*/
 
- 
 #dinnerrecipes1 {
     width: 100%;
-    display:flex;
-    flex-flow:row wrap;
+    display: flex;
+    flex-flow: row wrap;
     justify-content: space-around;
     align-items: center;
-    gap:1%;
-    
-    
-   
+    gap: 1%;
 }
 #dinnerrecipes2 {
     width: 100%;
-    display:flex;
+    display: flex;
     flex-flow: row-reverse wrap;
     justify-content: space-around;
     align-items: center;
-    gap:1%;
-    
-   
+    gap: 1%;
 }
 
 #dinnerrecipes3 {
     width: 100%;
-    display:flex;
-    flex-flow:row wrap;
+    display: flex;
+    flex-flow: row wrap;
     justify-content: space-around;
     align-items: center;
-    gap:1%;
-    
-   
+    gap: 1%;
 }
 
 #dinnerrecipes4 {
     width: 100%;
-    display:flex;
-    flex-flow:row-reverse wrap;
+    display: flex;
+    flex-flow: row-reverse wrap;
     justify-content: space-around;
     align-items: center;
-    gap:1%;
-  
-   
+    gap: 1%;
 }
 
-#dinnerrecipes img{
-    max-height:90%;
+#dinnerrecipes img {
+    max-height: 90%;
     max-width: 90%;
     border-radius: 50%;
 }
 
-#dinnerrecipes{
+#dinnerrecipes {
     text-align: justify;
 }
 
-
-
 /* signuppage*/
-#signuppage{
+#signuppage {
     background: url("../images/onion2.jpg") no-repeat center center fixed;
     min-height: 100%;
     min-width: 100%;
     width: 100%;
     height: 100%;
-    
 }
 
-#signuppage h2{
-    color:#598392;
+#signuppage h2 {
+    color: #598392;
     text-align: center;
-
 }
 
-#signupform{
-    text-align:center;
-    background-color:white;
-    max-width:600px;
-    position:absolute;
-    left:25%;
-    top:30%;
-    padding:30px;
+#signupform {
+    text-align: center;
+    background-color: white;
+    max-width: 600px;
+    position: absolute;
+    left: 25%;
+    top: 30%;
+    padding: 30px;
     font-weight: bold;
     border-radius: 10px;
 }
 
-.input{
-    background:transparent;
-    margin:5px 0 15px 0;
-    border:1px solid #598392;
-    color:#1e4a5c;
-    width:100%;
-    height:25px;
-  
+.input {
+    background: transparent;
+    margin: 5px 0 15px 0;
+    border: 1px solid #598392;
+    color: #1e4a5c;
+    width: 100%;
+    height: 25px;
 }
 
-.radiobutton:hover{
+.radiobutton:hover {
     background-color: #598392;
 }
 
-
-.input:hover{
+.input:hover {
     background-color: rgba(18, 69, 89, 0.5);
-    border-radius:10px;
-    border-color:#eff6e0;
+    border-radius: 10px;
+    border-color: #eff6e0;
 }
 
-
-#signupbutton{
-    margin-top:20px;
+#signupbutton {
+    margin-top: 20px;
     margin-left: 35%;
-    border-radius:5px;
-    padding:10px 30px;
-    text-align:center;
-    font-size:130%;
-    background-color:rgba(239, 246, 224, 0.4);
-    color:#598392;
-    display:block;
+    border-radius: 5px;
+    padding: 10px 30px;
+    text-align: center;
+    font-size: 130%;
+    background-color: rgba(239, 246, 224, 0.4);
+    color: #598392;
+    display: block;
 }
 
-#signupbutton:hover{
+#signupbutton:hover {
     background-color: rgba(18, 69, 89, 0.5);
     border-color: #eff6e0;
 }
 
-
-input[type="radio"]{
-  height: 15px;
-  width: 15px;
-  margin:2%;
+input[type="radio"] {
+    height: 15px;
+    width: 15px;
+    margin: 2%;
 }
-
-
-
 
 /* about page*/
-#flexabout{
+#flexabout {
     width: 100%;
-    display:flex;
-    flex-direction:row ;
+    display: flex;
+    flex-direction: row;
     justify-content: space-around;
-    
-
 }
 
-#flexabout video{
+#flexabout video {
     max-width: 20%;
-    width:33%;
+    width: 33%;
     border-radius: 50%;
     -webkit-filter: grayscale(100%);
-	filter: grayscale(100%);
+    filter: grayscale(100%);
 }
 
-#flexabout video:hover{
+#flexabout video:hover {
     -webkit-filter: grayscale(0);
-	filter: grayscale(0);
+    filter: grayscale(0);
     border-radius: 10%;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, 
-    rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, 
-    rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
-#aboutcontent{
+#aboutcontent {
     width: 90%;
-    display:flex;
-    flex-direction:row ;
+    display: flex;
+    flex-direction: row;
     justify-content: space-around;
-    margin-left:5%;
+    margin-left: 5%;
 }
 
-.aboutinfo{
-    margin:1%;
-    width:30%;
+.aboutinfo {
+    margin: 1%;
+    width: 30%;
     text-align: justify;
 }
 
-.aboutinfo h2{
+.aboutinfo h2 {
     text-align: center;
 }
 
-
 /* hyperlinks section */
 
-#hyperlinks{
-    max-width:100%;
-    width:100%;
-    display:flex;
+#hyperlinks {
+    max-width: 100%;
+    width: 100%;
+    display: flex;
     justify-content: space-evenly;
     align-items: flex-start;
-    position:relative;
-    margin-bottom:40px;
-   
- 
-   
+    position: relative;
+    margin-bottom: 40px;
 }
 
-
-
-#hyperlinks img{
+#hyperlinks img {
     max-width: 95%;
     -webkit-filter: grayscale(100%);
-	filter: grayscale(100%);
-    
-    }
+    filter: grayscale(100%);
+}
 
-#hyperlinks img:hover{
+#hyperlinks img:hover {
     -webkit-filter: grayscale(0);
-	filter: grayscale(0);
+    filter: grayscale(0);
     border-radius: 10%;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, 
-    rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, 
-    rgba(0, 0, 0, 0.09) 0px -3px 5px;
-	
-}
-  
-
-
-    /* footer */
-
-    footer {
-        height: 150px;
-    }
-    
-    .icons {
-        text-align: center;
-    }
-    
-    .icons  li {
-        display: inline;
-    }
-    
-    .icons i {
-        font-size: 2rem;
-        color: #3a3a3a;
-    }
-    
-    .icons i:hover{
-        color:#598392;
-        font-size: 2.1rem;
-    }
-
-
-
-
-    /* Media queries */
-
-
-
-
-@media screen and (max-width: 600px)  {
-
-    
-   #logo img {
-    width:20%;
-    position:absolute;
-    top:2%;
-    left:2%;
-    
-   }
-
-   
- 
-   header{
-       margin-bottom:10%;
-   }
-
-
-
-   #moftheday{
-    width: 80%;
-    max-width: 100%;
-    margin-left:20px;
-
-   
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
+/* footer */
 
+footer {
+    height: 150px;
+}
 
+.icons {
+    text-align: center;
+}
 
+.icons li {
+    display: inline;
+}
 
-#breakfast{
-    flex-wrap: wrap;
-    justify-content: center;
+.icons i {
+    font-size: 2rem;
+    color: #3a3a3a;
+}
+
+.icons i:hover {
+    color: #598392;
+    font-size: 2.1rem;
+}
+
+/* Media queries */
+
+@media screen and (max-width: 600px) {
+    #logo img {
+        width: 20%;
+        position: absolute;
+        top: 2%;
+        left: 2%;
     }
-    
-    
-    
-    #lunch{
-    flex-wrap:wrap;
-    justify-content: center;
+
+    header {
+        margin-bottom: 10%;
     }
-    
-    
-    #dinner{
-        flex-wrap:wrap;
+
+    #moftheday {
+        width: 80%;
+        max-width: 100%;
+        margin-left: 20px;
+    }
+
+    #breakfast {
+        flex-wrap: wrap;
         justify-content: center;
     }
-    
 
-   header{
-    margin-bottom: 25%;
-   }
-
-   #hyperlinks{
-       display:none;
-   }
-
-   #hyperlinks h2{
-    display:none;
-}
-
-  
-   
-    .navbar {
-        display: flex;
-        justify-content:space-evenly;
-        width:100%;
-        position: fixed;
-        background-color:rgba(18, 69, 89, 0.9);
-        bottom: -18px;
-        left:-10%;
-        z-index: 99;
-        color:white;
-        gap:0;
-        box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px;
-        }
-
-
-        .navbar a{
-            border:2px solid #598392;
- 
-        }
-
-
-        .navbar a:hover{
-            border:2px solid white;
-            color:white;
-        }
-
-    #signupbtn{
-    position:absolute;
-    right:5%;
-    width:25%;
-    padding:2%;
-    top:4%;
-    background-color: rgba(18, 69, 89, 0.4);
+    #lunch {
+        flex-wrap: wrap;
+        justify-content: center;
     }
 
+    #dinner {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
 
+    header {
+        margin-bottom: 25%;
+    }
 
-     footer{
+    #hyperlinks {
+        display: none;
+    }
+
+    #hyperlinks h2 {
+        display: none;
+    }
+
+    .navbar {
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+        position: fixed;
+        background-color: rgba(18, 69, 89, 0.9);
+        bottom: -18px;
+        left: -10%;
+        z-index: 99;
+        color: white;
+        gap: 0;
+        box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px;
+    }
+
+    .navbar a {
+        border: 2px solid #598392;
+    }
+
+    .navbar a:hover {
+        border: 2px solid white;
+        color: white;
+    }
+
+    #signupbtn {
+        position: absolute;
+        right: 5%;
+        width: 25%;
+        padding: 2%;
+        top: 4%;
+        background-color: rgba(18, 69, 89, 0.4);
+    }
+
+    footer {
         position: fixed;
         right: 0px;
         top: 50%;
         width: 50px;
-        background:rgba(18, 69, 89, 0.9);
+        background: rgba(18, 69, 89, 0.9);
         height: 200px;
         border-radius: 10px 0px 0px 10px;
         box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px;
         transform: translateY(-50%);
+    }
 
-     }  
+    .icons i {
+        color: white;
+    }
 
-    
-     .icons i {
-        color:white;
-        padding-right: 10px;
-     }
-
-     #container{
+    #container {
         margin-bottom: 30%;
     }
 
     #background h1 {
         text-align: center;
         font-size: 350%;
-        
     }
-    
 
     #background h3 {
         text-align: center;
         font-size: 100%;
-        
-    }
-    
-    
-    
-    #background a{
-        color: inherit;
-        font-size:30%;
     }
 
+    #background a {
+        color: inherit;
+        font-size: 30%;
+    }
 
     /* BREAKFAST PAGE*/
 
-    #breakfastrecipes{
+    #breakfastrecipes {
         text-align: justify;
         width: 200%;
     }
 
-    #breakfastrecipes h2, #breakfastrecipes h3{
+    #breakfastrecipes h2,
+    #breakfastrecipes h3 {
         text-align: center;
     }
 
-    .flexleft{
-        max-width:90%;
-        }
+    .flexleft {
+        max-width: 90%;
+    }
 
     /* LUNCH PAGE */
-    #lunchtrecipes{
+    #lunchtrecipes {
         text-align: justify;
         width: 200%;
     }
 
-    #lunchrecipes h2, #lunchrecipes h3{
+    #lunchrecipes h2,
+    #lunchrecipes h3 {
         text-align: center;
     }
 
     /* Dinner PAGE */
-    #dinnerrecipes{
+    #dinnerrecipes {
         text-align: justify;
         width: 200%;
     }
 
-    #dinnerrecipes h2, #dinnerrecipes h3{
+    #dinnerrecipes h2,
+    #dinnerrecipes h3 {
         text-align: center;
     }
 
-
     /* About Page */
-    #flexabout{
+    #flexabout {
         flex-wrap: wrap;
-    
     }
-    
-    #flexabout video{
+
+    #flexabout video {
         max-width: 100%;
-        width:30%;
+        width: 30%;
         border-radius: 50%;
         -webkit-filter: grayscale(0);
         filter: grayscale(0);
     }
-    
-    #aboutcontent{
+
+    #aboutcontent {
         width: 100%;
         flex-wrap: wrap;
     }
-        
-    .aboutinfo{
-        width:90%;
+
+    .aboutinfo {
+        width: 90%;
         text-align: center;
         margin-right: 10%;
         font-size: 65%;
     }
 
+    /* Signup page*/
 
-/* Signup page*/
+    #signupform {
+        text-align: start;
+        max-width: 100%;
+        position: absolute;
+        left: 2%;
+        top: 20%;
+        margin-bottom: 3%;
+    }
 
-#signupform{
-    text-align:start;
-    max-width: 100%;
-    position:absolute;
-    left:2%;
-    top:20%;
-    margin-bottom: 3%;
-    
-
-   
-   
-}
-
-#signupbutton{
-    margin-top:20px;
-    margin-left: 28%;
-
-}
-
-
-
-
+    #signupbutton {
+        margin-top: 20px;
+        margin-left: 28%;
+    }
 }
