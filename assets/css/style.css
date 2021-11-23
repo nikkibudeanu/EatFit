@@ -99,8 +99,8 @@ header {
 }
 
 #signupbtn a:hover {
-    font-size: 1.5rem;
     color: #598392;
+    font-size:1.1rem;
 }
 
 #signupbtn i {
@@ -136,7 +136,6 @@ header {
 }
 
 #background h1 {
-    font-size: 500%;
     color: rgb(239, 246, 224);
     text-transform: uppercase;
 }
@@ -148,18 +147,15 @@ header {
 #background a {
     text-decoration: none;
     color: inherit;
-    font-size: 170%;
 }
 
 #background a:hover {
     color: #eff6e0;
-    font-size: 300%;
 }
 
 /* menu of the day section */
 #moftheday {
     text-align: center;
-    font-size: 1rem;
     max-width: 70%;
     position: relative;
     color: #598392;
@@ -210,153 +206,34 @@ header {
     border-radius: 20%;
 }
 
-/* breakfast page */
+/* breakfast, lunch, dinner page */
 
-#breakfastrecipes1 {
-    width: 100%;
+.recipes-list-item {
     display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
+    width: 80%;
     align-items: center;
-    gap: 1%;
+    justify-content: space-between;
+    margin: 48px auto;
 }
 
-.flexleft {
-    max-width: 35%;
+.recipes-list-item:nth-child(even) {
+    flex-direction: row-reverse;
+  }
+
+
+.flexleft{
+    width:80%;
 }
 
-#breakfastrecipes2 {
-    width: 100%;
-    display: flex;
-    flex-flow: row-reverse wrap;
-    justify-content: space-around;
-    align-items: center;
-    gap: 1%;
-}
 
-#breakfastrecipes3 {
-    width: 100%;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-around;
-    align-items: center;
-    gap: 1%;
-}
 
-#breakfastrecipes4 {
-    width: 100%;
-    display: flex;
-    flex-flow: row-reverse wrap;
-    justify-content: space-around;
-    align-items: center;
-    gap: 1%;
-}
-
-#breakfastrecipes img {
-    max-height: 90%;
-    max-width: 90%;
+.recipes-list-item img {
+    max-width:80%;
     border-radius: 50%;
 }
 
-#breakfastrecipes {
-    text-align: justify;
-    margin: 1%;
-    max-width: 90%;
-}
 
-/* lunch page */
 
-#lunchrecipes1 {
-    width: 100%;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-around;
-    align-items: center;
-    gap: 1%;
-}
-#lunchrecipes2 {
-    width: 100%;
-    display: flex;
-    flex-flow: row-reverse wrap;
-    justify-content: space-around;
-    align-items: center;
-    gap: 1%;
-}
-
-#lunchrecipes3 {
-    width: 100%;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-around;
-    align-items: center;
-    gap: 1%;
-}
-
-#lunchrecipes4 {
-    width: 100%;
-    display: flex;
-    flex-flow: row-reverse wrap;
-    justify-content: space-around;
-    align-items: center;
-    gap: 1%;
-}
-
-#lunchrecipes img {
-    max-height: 90%;
-    max-width: 90%;
-    border-radius: 50%;
-}
-
-#lunchrecipes {
-    text-align: justify;
-}
-
-/* dinner page*/
-
-#dinnerrecipes1 {
-    width: 100%;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-around;
-    align-items: center;
-    gap: 1%;
-}
-#dinnerrecipes2 {
-    width: 100%;
-    display: flex;
-    flex-flow: row-reverse wrap;
-    justify-content: space-around;
-    align-items: center;
-    gap: 1%;
-}
-
-#dinnerrecipes3 {
-    width: 100%;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-around;
-    align-items: center;
-    gap: 1%;
-}
-
-#dinnerrecipes4 {
-    width: 100%;
-    display: flex;
-    flex-flow: row-reverse wrap;
-    justify-content: space-around;
-    align-items: center;
-    gap: 1%;
-}
-
-#dinnerrecipes img {
-    max-height: 90%;
-    max-width: 90%;
-    border-radius: 50%;
-}
-
-#dinnerrecipes {
-    text-align: justify;
-}
 
 /* signuppage*/
 #signuppage {
@@ -496,6 +373,7 @@ input[type="radio"] {
 
 footer {
     height: 150px;
+    margin:40px 100px;
 }
 
 .icons {
@@ -605,30 +483,25 @@ footer {
         border-radius: 10px 0px 0px 10px;
         box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px;
         transform: translateY(-50%);
+        margin:0 auto;
     }
 
-    .icons i {
-        color: white;
+    footer hr {
+        display:none;
+    }
+.icons i{
+    color: white;
+    padding-bottom:10px;
+}
+
+ .icons  {
+        position:absolute;
+        right:5px;
     }
 
-    #container {
-        margin-bottom: 30%;
-    }
+ 
 
-    #background h1 {
-        text-align: center;
-        font-size: 350%;
-    }
-
-    #background h3 {
-        text-align: center;
-        font-size: 100%;
-    }
-
-    #background a {
-        color: inherit;
-        font-size: 30%;
-    }
+   
 
     /* BREAKFAST PAGE*/
 
@@ -649,7 +522,7 @@ footer {
     /* LUNCH PAGE */
     #lunchtrecipes {
         text-align: justify;
-        width: 200%;
+
     }
 
     #lunchrecipes h2,
@@ -660,7 +533,7 @@ footer {
     /* Dinner PAGE */
     #dinnerrecipes {
         text-align: justify;
-        width: 200%;
+
     }
 
     #dinnerrecipes h2,
@@ -690,7 +563,7 @@ footer {
         width: 90%;
         text-align: center;
         margin-right: 10%;
-        font-size: 65%;
+ 
     }
 
     /* Signup page*/
