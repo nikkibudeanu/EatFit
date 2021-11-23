@@ -1,162 +1,126 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="Healthy food recipe website">
-        <meta name="keywords" content="healthy eating health vegetarian food">
-        <link rel="stylesheet" href="assets/css/style.css">
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="description" content="Healthy food recipe website" />
+        <meta name="keywords" content="healthy eating health vegetarian food" />
+        <link rel="stylesheet" href="assets/css/style.css" />
         <title>Sign up| Eat + Fit</title>
     </head>
-<body>
+    <body>
+        <!-- HEADER-->
 
-    <!-- HEADER-->
-       
-    <header> 
+        <header>
+            <div id="logo">
+                <a href="index.html"> <img src="assets/images/logo.jpg" alt="logo" /> </a>
+            </div>
 
-       
-           <div id="logo">   <a href="index.html"> <img src="assets/images/logo.jpg" alt="logo">   </a>  </div>
-    
-    
-    <!-- Navigation bar-->
+            <!-- Navigation bar-->
 
-   
-   
-            <nav >
-    
-            <ul class="navbar">
-                
+            <nav>
+                <ul class="navbar">
                     <li>
                         <a href="about.html"> About</a>
                     </li>
-    
-    
-    
+
                     <li>
                         <a href="dinner.html"> Dinner </a>
                     </li>
-    
-    
-    
-    
-                    <li> <a href="lunch.html"> Lunch </a>
-                    </li>
-    
-    
-    
+
+                    <li><a href="lunch.html"> Lunch </a></li>
+
                     <li>
                         <a href="breakfast.html"> Breakfast</a>
                     </li>
-    
-    
-    
+
                     <li>
                         <a href="index.html"> Home</a>
                     </li>
-        
-        </ul>
-    
-        
-    
-        <!--SIGNUP BUTTON-->
-        <div id="signupbtn">
-            <a href="signup.html"> Sign up <i class="fas fa-user-plus"></i> </a>
+                </ul>
+
+                <!--SIGNUP BUTTON-->
+                <div id="signupbtn">
+                    <a href="signup.html"> Sign up <i class="fas fa-user-plus"></i> </a>
+                </div>
+            </nav>
+        </header>
+
+        <div id="signuppage">
+            <!--Signup FORM-->
+
+            <section class="form-section">
+                <form method="POST" action="https://formdump.codeinstitute.net/" id="signupform">
+                    <h2>GET FREE RECIPES EVERY WEEK!</h2>
+
+                    <label for="fname">First name:</label>
+                    <input id="fname" name="first_name" type="text" class="input" required />
+
+                    <label for="lname">Last name:</label>
+                    <input id="lname" name="last_name" type="text" class="input" required />
+
+                    <label for="email">Email address:</label>
+                    <input id="email" name="email_address" type="email" class="input" required />
+
+                    <br />
+                    <h2>What recipes would you like to receive?</h2>
+
+                    <label for="vegan">Vegan</label>
+                    <input type="radio" id="vegan" name="diet" value="vegan" required />
+                    <label for="vegetarian">Vegetarian</label>
+                    <input type="radio" id="vegetarian" name="diet" value="vegetarian" required />
+                    <label for="pescatarian">Pescatarian</label>
+                    <input type="radio" id="pescatarian" name="diet" value="pescatarian" required />
+                    <label for="carnivore">Carnivore</label>
+                    <input type="radio" id="carnivore" name="diet" value="carnivore" required />
+
+                    <input type="submit" value="Bon Appétit!" id="signupbutton" />
+                </form>
+            </section>
         </div>
-    
-    </nav>
-   </header> 
-
-   <div id="signuppage">
-
-    <!--Signup FORM-->
-      
-    <section class="form-section">
-
-<form method="POST" action="https://formdump.codeinstitute.net/" id="signupform" > 
-<h2>GET FREE RECIPES EVERY WEEK!</h2>
-
-
-<label for="fname">First name:</label>
-<input id="fname" name="first_name" type="text" class="input" required >
-
-
-<label for="lname">Last name:</label>
-<input id="lname" name="last_name" type="text" class="input" required >
-
-
-<label for="email">Email address:</label>
-<input id="email" name="email_address" type="email" class="input" required >
-
-<br>
-<h2>What recipes would you like to receive?</h2>
-
-<label for="vegan">Vegan</label>
-            <input type="radio" id="vegan" name="diet" value="vegan"  required >
-<label for="vegetarian">Vegetarian</label>
-            <input type="radio" id="vegetarian" name="diet" value="vegetarian"  required>
-<label for="pescatarian">Pescatarian</label>
-            <input type="radio" id="pescatarian" name="diet" value="pescatarian"  required>
-<label for="carnivore">Carnivore</label>
-            <input type="radio" id="carnivore" name="diet" value="carnivore"  required>
-            
-
-            <input type="submit" value="Bon Appétit!" id="signupbutton">
-
-</form>
-
-
-
-    </section>
-</div>
 
         <!-- More recipes section with links to other pages-->
-       
-        <br>
-      
+
+        <br />
+
         <section id="hyperlinks">
             <div id="linktob">
-                
-                <a href="breakfast.html"> <img src="assets/images/breakfast.jpg" alt="breakfast"> </a>
-                 </div> 
-    
-    
-            <div class="linkto">
-                
-                <a href="lunch.html"> <img src="assets/images/lunch.jpg" alt="lunch"> </a>
-                 </div>
-    
-    
-            <div class="linkto"> 
-              
-                <a href="dinner.html">   <img src="assets/images/dinner.jpg" alt="dinner"> </a>
+                <a href="breakfast.html"> <img src="assets/images/breakfast.jpg" alt="breakfast" /> </a>
             </div>
-    
-      
-    </section>
-    
 
-    <!-- Footer section with social media icons-->
-    <footer id="signupfooter">
-        <ul class="icons">
-            <li><a href="https://www.facebook.com/" target="_blank" 
-                rel="noopener" aria-label="Visit our Facebook page"> <i class="fab fa-facebook"></i></a></li>
-    
-            <li><a href="https://twitter.com/?lang=en" target="_blank" 
-                rel="noopener" aria-label="Visit our Twitter page"> <i class="fab fa-twitter"></i></a></li>
-    
-            <li><a href="https://www.instagram.com/" target="_blank" 
-                rel="noopener" aria-label="Visit our Instagram page"> <i class="fab fa-instagram"></i></a></li>
-    
-            <li><a href="https://www.youtube.com/" target="_blank" 
-                rel="noopener" aria-label="Visit our Youtube page"> <i class="fab fa-youtube"></i></a></li>
-        </ul>
+            <div class="linkto">
+                <a href="lunch.html"> <img src="assets/images/lunch.jpg" alt="lunch" /> </a>
+            </div>
+
+            <div class="linkto">
+                <a href="dinner.html"> <img src="assets/images/dinner.jpg" alt="dinner" /> </a>
+            </div>
+        </section>
+
+        <!-- Footer section with social media icons-->
+        <footer id="signupfooter">
+            <hr />
+            <ul class="icons">
+                <li>
+                    <a href="https://www.facebook.com/" target="_blank" rel="noopener" aria-label="Visit our Facebook page"> <i class="fab fa-facebook"></i></a>
+                </li>
+
+                <li>
+                    <a href="https://twitter.com/?lang=en" target="_blank" rel="noopener" aria-label="Visit our Twitter page"> <i class="fab fa-twitter"></i></a>
+                </li>
+
+                <li>
+                    <a href="https://www.instagram.com/" target="_blank" rel="noopener" aria-label="Visit our Instagram page"> <i class="fab fa-instagram"></i></a>
+                </li>
+
+                <li>
+                    <a href="https://www.youtube.com/" target="_blank" rel="noopener" aria-label="Visit our Youtube page"> <i class="fab fa-youtube"></i></a>
+                </li>
+            </ul>
         </footer>
 
         <!--Font awesome script-->
-<script src="https://kit.fontawesome.com/ce8a43f771.js" crossorigin="anonymous"></script>
-
-
-        
-</body>
+        <script src="https://kit.fontawesome.com/ce8a43f771.js" crossorigin="anonymous"></script>
+    </body>
 </html>
