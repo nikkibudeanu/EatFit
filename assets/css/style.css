@@ -408,6 +408,7 @@ footer {
 /* Media queries */
 
 @media screen and (max-width: 600px) {
+    
     #logo img {
         width: 20%;
         position: absolute;
@@ -415,9 +416,18 @@ footer {
         left: 2%;
     }
 
+    #background h1 {
+        font-size:3rem;
+    }
+
+    #background h3{
+        font-size:1rem;
+    }
+
     header {
         margin-bottom: 10%;
     }
+
 
     #moftheday {
         width: 80%;
@@ -590,11 +600,24 @@ footer {
         margin-bottom: 10%;
     }
 
+    h1 {
+font-size: 2rem;
+    }
+
+    h2 {
+        font-size:1.5rem;
+    }
+
+    h3 {
+        font-size:1rem;
+    }
+
     #moftheday {
         width: 80%;
         max-width: 100%;
-        margin-left: 20px;
+        margin-left: 50px;
     }
+
 
     #breakfast {
         flex-wrap: wrap;
@@ -621,6 +644,8 @@ footer {
 
     
 
+    
+
     .navbar {
         display: flex;
         justify-content: space-evenly;
@@ -636,11 +661,13 @@ footer {
 
     .navbar a {
         border: 2px solid #598392;
+        margin-right:70px;
     }
 
     .navbar a:hover {
         border: 2px solid white;
         color: white;
+        border-radius: 10%;
     }
 
     #signupbtn {
@@ -728,20 +755,18 @@ footer {
 
     #signupform {
         text-align: start;
-        max-width: 100%;
+        max-width: 80%;
         position: absolute;
-        left: 2%;
-        top: 20%;
-        margin-bottom: 3%;
+        left: 5%;
+        top: 40%;
+  
     }
 
     #signupbutton {
         margin-top: 20px;
-        margin-left: 28%;
+        margin-left: 35%;
     }
 
-    #container{
-        margin-bottom:20px;
-    }
+
 
 }
