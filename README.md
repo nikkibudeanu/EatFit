@@ -13,7 +13,24 @@ Also, they will be able to sign for a newsletter in order to get new personalize
 
 ## ABOUT PAGE
 
-
 ## BREAKFAST, DINNER, LUNCH pages
 
-## Signup Page
+## SIGNUP PAGE
+
+# TESTING
+
+## Validator Testing
+
+## Unfixed Bugs
+
+
+# Deployment
+
+# Credits
+
+## Content
+
+## Media 
+
+# USER STORIES
+

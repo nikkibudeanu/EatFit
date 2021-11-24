@@ -26,7 +26,8 @@ h2,
 h3 {
     font-family: "IBM Plex Sans", sans-serif;
     text-align: center;
-    font-size: 2rem;
+    font-size: 1.5rem;
+    color:#598392
 }
 
 hr {
@@ -73,6 +74,7 @@ header {
 
 .navbar a:hover {
     color: #598392;
+    font-weight: bold;
 }
 
 .navbar li {
@@ -82,31 +84,30 @@ header {
 /*signup button */
 #signupbtn {
     position: absolute;
-    top: 1%;
+    top: 2%;
     right: 1%;
     width: 10%;
     padding: 2%;
-    margin-top: 1%;
+
 }
 
 #signupbtn a {
     text-decoration: none;
     color: inherit;
-    background-color: transparent;
     font-family: "Space Grotesk", sans-serif;
-    font-size: 1rem;
     font-weight: bold;
     display: block;
 }
 
 #signupbtn a:hover {
-    color: #598392;
-    font-size:1.1rem;
+color:#598392;
 }
 
 #signupbtn i {
     color: #598392;
 }
+
+
 
 /* hero video and overlay text*/
 #video-outer {
@@ -139,10 +140,12 @@ header {
 #background h1 {
     color: rgb(239, 246, 224);
     text-transform: uppercase;
+    font-size:5.5rem;
 }
 
 #background h3 {
     color: white;
+    font-family:"Space Grotesk", sans-serif;
 }
 
 #background a {
@@ -152,6 +155,7 @@ header {
 
 #background a:hover {
     color: #eff6e0;
+    font-size:2.5rem;
 }
 
 /* menu of the day section */
@@ -252,7 +256,8 @@ header {
 
 #signupform {
     text-align: center;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
     max-width: 600px;
     position: absolute;
     left: 25%;
@@ -472,11 +477,182 @@ footer {
 
     #signupbtn {
         position: absolute;
-        right: 5%;
+        right:-2px;
+        width: 110px;
+        padding: 2%;
+        top: 25px;
+        font-size:1.2rem;
+        border:2px solid #598392;
+        background-color: rgba(18, 69, 89, 0.4);
+        border-radius: 10px 0px 0px 10px ;
+    }
+
+    
+    footer {
+        position: fixed;
+        right: 0px;
+        top: 50%;
+        width: 50px;
+        background: rgba(18, 69, 89, 0.8);
+        height: 200px;
+        border-radius: 10px 0px 0px 10px;
+        box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px;
+        transform: translateY(-50%);
+        margin:0 auto;
+    }
+
+    footer hr {
+        display:none;
+    }
+.icons i{
+    color: white;
+    padding-bottom:10px;
+}
+
+ .icons  {
+        position:absolute;
+        right:5px;
+    }
+
+ 
+
+   
+
+    /* BREAKFAST, LUNCH, DINNER PAGE*/
+
+    .recipes-list-item {
+        flex-wrap: wrap;
+        text-align: center;
+        margin:0 auto;
+    }
+
+
+    .flexleft{
+        width:100%;
+    }
+
+    
+    /* About Page */
+    #flexabout {
+        flex-wrap: wrap;
+    }
+
+    #flexabout video {
+        max-width: 100%;
+        width: 30%;
+        border-radius: 50%;
+        -webkit-filter: grayscale(0);
+        filter: grayscale(0);
+    }
+
+    #aboutcontent {
+        width: 90%;
+        flex-wrap: wrap;
+    }
+
+    .aboutinfo {
+        width: 90%;
+        text-align: center;
+
+ 
+    }
+
+    /* Signup page*/
+
+    #signupform {
+        text-align: start;
+        max-width: 100%;
+        position: absolute;
+        left: 2%;
+        top: 20%;
+        margin-bottom: 3%;
+    }
+
+    #signupbutton {
+        margin-top: 20px;
+        margin-left: 28%;
+    }
+
+    #container{
+        padding-bottom:50px;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 850px) {
+    #logo img {
+        width: 20%;
+        position: absolute;
+        top: 2%;
+        left: 2%;
+    }
+
+    header {
+        margin-bottom: 10%;
+    }
+
+    #moftheday {
+        width: 80%;
+        max-width: 100%;
+        margin-left: 20px;
+    }
+
+    #breakfast {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    #lunch {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    #dinner {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    header {
+        margin-bottom: 25%;
+    }
+
+    #hyperlinks {
+       padding-bottom:50px;
+    }
+
+    
+
+    .navbar {
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+        position: fixed;
+        background-color: rgba(18, 69, 89, 0.9);
+        bottom: -18px;
+        z-index: 99;
+        color: white;
+        gap: 0;
+        box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px;
+    }
+
+    .navbar a {
+        border: 2px solid #598392;
+    }
+
+    .navbar a:hover {
+        border: 2px solid white;
+        color: white;
+    }
+
+    #signupbtn {
+        position: absolute;
+        right:-2px;
         width: 25%;
         padding: 2%;
-        top: 4%;
+        top: 7%;
+        font-size:1.5rem;
+        border:2px solid #598392;
         background-color: rgba(18, 69, 89, 0.4);
+        border-radius: 10px 0px 0px 10px ;
     }
 
     footer {
@@ -567,4 +743,5 @@ footer {
     #container{
         margin-bottom:20px;
     }
+
 }
