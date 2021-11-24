@@ -424,6 +424,7 @@ footer {
         font-size:1rem;
     }
 
+
     header {
         margin-bottom: 10%;
     }
@@ -452,6 +453,10 @@ footer {
 
     header {
         margin-bottom: 25%;
+    }
+
+    #explore h2{
+        display:none;
     }
 
     #hyperlinks {
