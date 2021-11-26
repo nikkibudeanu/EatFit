@@ -30,12 +30,14 @@ The logo was created in Canva and I used the same font family as the headings "I
 This section is made to be changed on a daily basis and it contains a breakfast, lunch and dinner recipe of the day. It includes total calories, the recipe and images. 
 
 ### Explore section
-This section's purpose is to provide quicker access to BREAKFAST, LUNCH and DINNER pages. It contains 3 clickable images. The Explore section is only available on tablet and desktop screens and not on mobile ones. 
+This section's purpose is to provide quicker access to BREAKFAST, LUNCH and DINNER pages. It contains 3 clickable images with links to the recipe pages. The Explore section is only available on tablet and desktop screens and not on mobile ones. 
 
 ### Footer
+The footer contains icons with links to the social media platforms. On mobile and tablet screens, it switches to the side in a fixed position to allow users to quicker navigate on our social media platforms from any page. 
+
 
 ## ABOUT PAGE
-
+This page contains
 ## BREAKFAST, DINNER, LUNCH pages
 
 ## SIGNUP PAGE
