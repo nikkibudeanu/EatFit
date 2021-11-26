@@ -75,6 +75,7 @@ header {
 .navbar a:hover {
     color: #598392;
     font-weight: bold;
+    
 }
 
 .navbar li {
@@ -155,7 +156,7 @@ color:#598392;
 
 #background a:hover {
     color: #eff6e0;
-    font-size:2.5rem;
+    font-size:2rem;
 }
 
 /* menu of the day section */
@@ -177,7 +178,7 @@ color:#598392;
     display: flex;
     justify-content: center;
     align-items: center;
-    border-bottom: 2px solid #3a3a3a;
+    border-bottom: 2px solid #598392;
 }
 
 #brimage img {
@@ -190,7 +191,7 @@ color:#598392;
     display: flex;
     justify-content: center;
     align-items: center;
-    border-bottom: 2px solid #3a3a3a;
+    border-bottom: 2px solid #598392;
 }
 
 #limage img {
@@ -203,6 +204,7 @@ color:#598392;
     display: flex;
     justify-content: center;
     align-items: center;
+    border-bottom: 2px solid #598392;
 }
 
 #dimage img {
@@ -407,7 +409,7 @@ footer {
 
 /* Media queries */
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 600px) and (min-width: 320px) {
     
     #logo img {
         width: 20%;
@@ -593,7 +595,10 @@ footer {
     }
 }
 
-@media screen and (min-width: 600px) and (max-width: 850px) {
+/* TABLET SCREENS */
+
+@media screen and (min-width: 600px) 
+and (max-width: 1024px) {
     #logo img {
         width: 20%;
         position: absolute;
@@ -678,13 +683,17 @@ font-size: 2rem;
     #signupbtn {
         position: absolute;
         right:-2px;
-        width: 25%;
+        width: 20%;
         padding: 2%;
         top: 7%;
         font-size:1.5rem;
         border:2px solid #598392;
         background-color: rgba(18, 69, 89, 0.4);
         border-radius: 10px 0px 0px 10px ;
+    }
+
+    #signupbtn:hover{
+        width:22%;
     }
 
     footer {
