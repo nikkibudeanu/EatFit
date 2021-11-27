@@ -54,6 +54,11 @@ This page will allow users to sign up for a weekly newsletters with recipes. It 
 ![Lighthouse report](assets/images/report1.png)
 ![Lighthouse report](assets/images/report2.png)
 
+* I confirmed the form works on mobile and desktop screen. It has entry requirements and the submit button is functionable. 
+
+* I confirmed that all images have passed through tiny.png in order to make sure the loading time is not too long and our users have a smooth user experience. 
+
+
 
 ## Validator Testing
 
@@ -66,16 +71,39 @@ No errors were found when passing the W3 jigsaw validator.
 ![CSS VALIDATOR](assets/images/cssvalid.png)
 
 
-## Unfixed Bugs
+## Bugs
 
+* The main video of the screen was positioned a few pixels from the left of the screen and I eventually figured that there is an automatic margin which needs to be set to 0 in order to avoid issues like these. 
+
+* When deployed, I would get an error that github cannot find the files. The problem was caused by choosing the wrong option when deploying the website to github pages: files instead of root. 
+
+* I was using % for font and positioning, instead of using pixels/rem. It caused some issues as I always needed to change the font size for various screen sizes. 
+
+* Initially, for breakfast, lunch and dinner pages, I used a different flexbox for each recipe and the code was way too long. It took me some time to realize that I can use the same class for each recipe and only write a few lines to style all 3 pages. 
+
+
+No unfixed bugs. 
 
 # Deployment
+EAT+FIT  was deployed to GitHub pages. 
+
+The steps to deploy are as follows:
+* In the GitHub repository, navigate to the Settings tab
+* From the source section drop-down menu, select the Master Branch
+* Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+
+
+Link: https://nikkibudeanu.github.io/my-first-project/index.html 
+
+
+
 
 # Credits
 
 ## Content
 
 ## Media 
+All images/videos were taken from Pexels. 
 
 # USER STORIES
 
