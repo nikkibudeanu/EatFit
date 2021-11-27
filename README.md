@@ -49,9 +49,22 @@ This page will allow users to sign up for a weekly newsletters with recipes. It 
 * I tested Eat+fit on various browsers: Safari, Google Chrome, Mozilla Firefox. 
 * I confirmed that all the website features are easy to understand and readable. 
 * I confirmed that the navigation bar and footer works on different screen sizes. 
-* I passed the 
+* I passed the Lighthouse Developper tool's report with more than 90% for all pages. 
+
+![Lighthouse report](assets/images/report1.png)
+![Lighthouse report](assets/images/report2.png)
+
 
 ## Validator Testing
+
+* HTML
+No errors were found when passing the W3C validator.
+
+* CSS
+No errors were found when passing the W3 jigsaw validator.
+
+![CSS VALIDATOR](assets/images/cssvalid.png)
+
 
 ## Unfixed Bugs
 
