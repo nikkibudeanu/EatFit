@@ -180,8 +180,17 @@ https://www.fontpair.co/pairing/space-grotesk-ibm-plex-sans
 * I confirmed that the navigation bar and footer works on different screen sizes. 
 * I passed the Lighthouse Developper tool's report with more than 90% for all pages. 
 
-![Lighthouse report](assets/images/report1.png)
+## Home:
 ![Lighthouse report](assets/images/report2.png)
+
+## Signup Page:
+![Lighthouse report](assets/images/report1.png)
+
+## Breakfast Page:
+![Lighthouse report](assets/images/report3.png)
+
+## About Page:
+![Lighthouse report](assets/images/report4.png)
 
 * I confirmed the form works on mobile and desktop screen. It has entry requirements and the submit button is functionable. 
 
