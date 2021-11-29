@@ -10,23 +10,35 @@ html {
 
 body {
     font-weight: 300;
-    color: #555b6e;
     font-family: "Space Grotesk", sans-serif;
     margin-left: 0;
     margin-right: 0;
 }
 
+
 p {
     font-family: "Space Grotesk", sans-serif;
     font-size: 1rem;
+    color: #555b6e;
 }
 
-h1,
-h2,
-h3 {
+h1{
+    font-size: 2.5rem;
     font-family: "IBM Plex Sans", sans-serif;
+    color:#1e4a5c;
+}
+
+h2{
+    font-size: 2rem;
     text-align: center;
+    font-family: "IBM Plex Sans", sans-serif;
+    color: #598392;
+}
+
+h3{
     font-size: 1.5rem;
+    text-align: center;
+    font-family: "IBM Plex Sans", sans-serif;
     color: #598392;
 }
 
@@ -142,68 +154,37 @@ display: flex;
     font-family: "Space Grotesk", sans-serif;
 }
 
-#background a {
-    text-decoration: none;
-    color: inherit;
-}
 
-#background a:hover {
-    color: #eff6e0;
-    font-size: 2rem;
-}
 
 /* menu of the day section */
-#moftheday {
-    text-align: center;
-    max-width: 70%;
-    position: relative;
-    color: #598392;
-    padding: 0 10px;
-    margin-left: 250px;
-}
 
 #moftheday p,
-#moftheday h2 {
+#moftheday h3 {
     color: #555b6e;
 }
 
-#breakfast {
+.menu-list-item{
     display: flex;
-    justify-content: center;
-    align-items: center;
-    border-bottom: 2px solid #598392;
-}
-
-#brimage img {
-    width: 80%;
-    height: 80%;
-    border-radius: 20%;
-}
-
-#lunch {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-bottom: 2px solid #598392;
-}
-
-#limage img {
     width: 90%;
-    height: 60%;
-    border-radius: 20%;
-}
-
-#dinner {
-    display: flex;
-    justify-content: center;
     align-items: center;
-    border-bottom: 2px solid #598392;
+    justify-content: center;
+    margin: 48px auto; 
+    border-bottom: 1px solid #598392;
 }
 
-#dimage img {
-    width: 80%;
-    height: 60%;
-    border-radius: 20%;
+
+.recipe{
+    padding: 50px;
+    width:50%;
+}
+
+.image {
+    width:50%;
+}
+
+.image img {
+    max-width: 400px;
+    border-radius:10%;
 }
 
 /* breakfast, lunch, dinner page */
@@ -222,12 +203,18 @@ display: flex;
 }
 
 .flexleft {
-    width: 80%;
+    width: 50%;
     margin-right: 20px;
+    padding:20px;
+}
+
+.flexright{
+    width: 50%;
+    padding:20px;
 }
 
 .recipes-list-item img {
-    max-width: 70%;
+    max-width: 400px;
     border-radius: 50%;
 }
 
@@ -258,17 +245,20 @@ display: flex;
     text-align: center;
 }
 
-#signupform {
+.form-section{
+    display:flex;
+    justify-content: center;
+}
+
+#signup-form {
     text-align: center;
     background-color: rgba(255, 255, 255, 0.9);
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
     max-width: 600px;
-    position: absolute;
-    left: 25%;
-    top: 30%;
     padding: 30px;
     font-weight: bold;
     border-radius: 10px;
+    margin-top: 50px;
 }
 
 .input {
@@ -284,13 +274,7 @@ display: flex;
     background-color: #598392;
 }
 
-.input:hover {
-    background-color: rgba(18, 69, 89, 0.5);
-    border-radius: 10px;
-    border-color: #eff6e0;
-}
-
-#signupbutton {
+#signup-button {
     margin-top: 20px;
     margin-left: 35%;
     border-radius: 5px;
@@ -302,7 +286,7 @@ display: flex;
     display: block;
 }
 
-#signupbutton:hover {
+#signup-button:hover {
     background-color: white;
     border-color: #598392;
     color: #598392;
@@ -326,7 +310,6 @@ input[type="radio"] {
 #flexabout video {
     max-width: 20%;
     width: 33%;
-    border-radius: 50%;
     -webkit-filter: grayscale(100%);
     filter: grayscale(100%);
 }
@@ -416,10 +399,7 @@ footer {
     }
 
     /* header */
-    #logo img {
-        height:100px;
-     }
-
+    
     #background h1 {
         font-size: 3rem;
     }
@@ -428,40 +408,37 @@ footer {
         font-size: 1rem;
     }
 
-    header {
-        margin-bottom: 25%;
-    }
+    #logo img {
+        height:100px;
+     }
 
-    .navbar {
-        display: flex;
-        justify-content: space-evenly;
-        width: 100%;
-        position: fixed;
-        background-color: rgba(18, 69, 89, 0.9);
-        bottom: -18px;
-        left: -10%;
-        z-index: 99;
-        color: white;
-        gap: 0;
-        box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px;
-    }
-
-    .navbar a {
-        border: 2px solid #598392;
-    }
-
-    .navbar a:hover {
-        border: 2px solid white;
-        color: white;
-    }
+     
+         .navbar {
+             justify-content: center;
+             gap:0px;
+             width: 100%;
+             position: fixed;
+             bottom:-17px;
+             left:-40px;
+             background-color: rgba(18, 69, 89, 0.9);
+             z-index: 99;
+             color: white;
+         }
+     
+         .navbar a {
+             padding:15px 9px ;
+             border-right: 1px solid #598392;
+             border-bottom:none;
+            
+         }
+     
+         .navbar a:hover {
+             color: white;
+         }
 
     #signupbtn {
-        position: absolute;
-        right: -2px;
-        width: 110px;
-        padding: 2%;
-        top: 25px;
         font-size: 1.2rem;
+        margin-right: -20px;
         border: 2px solid #598392;
         background-color: rgba(18, 69, 89, 0.4);
         border-radius: 10px 0px 0px 10px;
@@ -470,25 +447,30 @@ footer {
     /* menu of the day section */
 
     #moftheday {
-        width: 80%;
-        max-width: 100%;
-        margin-left: 20px;
+       width: 100%;
     }
 
-    #breakfast {
+    .menu-list-item {
         flex-wrap: wrap;
         justify-content: center;
+        max-width:100%;
     }
 
-    #lunch {
-        flex-wrap: wrap;
-        justify-content: center;
+    .recipe{
+        width: 100%;
     }
 
-    #dinner {
-        flex-wrap: wrap;
-        justify-content: center;
+    .image{
+        width:100%;
+        padding-bottom:30px;
+        text-align: center;
     }
+
+    .image img {
+        width: 300px;
+    }
+
+   
 
     /* hyperlinks explore section */
 
@@ -543,10 +525,20 @@ footer {
         flex-wrap: wrap;
         text-align: center;
         margin: 0 auto;
+        width:100%;
     }
 
     .flexleft {
         width: 100%;
+    }
+
+    .flexright{
+        width: 100%;
+        text-align: center;
+    }
+
+    .recipes-list-item img{
+        max-width:300px;
     }
 
     /* About Page */
@@ -557,7 +549,6 @@ footer {
     #flexabout video {
         max-width: 100%;
         width: 30%;
-        border-radius: 50%;
         -webkit-filter: grayscale(0);
         filter: grayscale(0);
     }
@@ -565,6 +556,7 @@ footer {
     #aboutcontent {
         width: 90%;
         flex-wrap: wrap;
+        margin-bottom:40px;
     }
 
     .aboutinfo {
@@ -573,15 +565,14 @@ footer {
     }
 
     /* Signup page*/
-
-    #signupform {
-        text-align: start;
-        max-width: 100%;
-        position: absolute;
-        left: 2%;
-        top: 20%;
-        margin-bottom: 3%;
+    #signup-form{
+        margin-bottom: 80px;
     }
+
+    {
+        margin-bottom:100px;
+    }
+    
 
     #signupbutton {
         margin-top: 20px;
@@ -618,21 +609,19 @@ footer {
    height:100px;
 }
 
-    header {
-        margin-bottom: 25%;
-    }
+header { 
+        max-width:100%;
+        }
 
     .navbar {
-        display: flex;
-        justify-content: space-evenly;
         width: 100%;
         position: fixed;
+        bottom:-17px;
+        right:-30px;
         background-color: rgba(18, 69, 89, 0.9);
-        bottom: -18px;
         z-index: 99;
         color: white;
-        gap: 0;
-        box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px;
+
     }
 
     .navbar a {
@@ -647,48 +636,44 @@ footer {
     }
 
     #signupbtn {
-        position: absolute;
-        right: -2px;
-        width: 20%;
-        padding: 2%;
-        top: 7%;
-        font-size: 1.5rem;
+        padding: 10px 20px;
+        margin-right: -20px;
         border: 2px solid #598392;
         background-color: rgba(18, 69, 89, 0.4);
         border-radius: 10px 0px 0px 10px;
     }
 
-    #signupbtn:hover {
-        width: 22%;
-    }
+    
 
     /* menu of the day section */
 
-    #moftheday {
-        width: 80%;
-        max-width: 100%;
-        margin-left: 50px;
-    }
+   
 
-    #breakfast {
-        flex-wrap: wrap;
-        justify-content: center;
-    }
+.menu-list-item{
+    flex-wrap: wrap;
+    text-align: center;
+    margin: 0 auto;
+}
 
-    #lunch {
-        flex-wrap: wrap;
-        justify-content: center;
-    }
 
-    #dinner {
-        flex-wrap: wrap;
-        justify-content: center;
-    }
+.recipe{
+    width:100%;
+}
+
+.image {
+    width:100%;
+}
+
+.image img {
+    max-width: 400px;
+    border-radius:10%;
+}
+
 
     /* hyperlinks explore section */
 
     #hyperlinks {
-        padding-bottom: 50px;
+        padding-bottom: 80px;
     }
 
     /* footer section */
@@ -736,6 +721,10 @@ footer {
         width: 100%;
     }
 
+    .flexright{
+        width:100%;
+    }
+
     /* About Page */
     #flexabout {
         flex-wrap: wrap;
@@ -744,7 +733,6 @@ footer {
     #flexabout video {
         max-width: 100%;
         width: 30%;
-        border-radius: 50%;
         -webkit-filter: grayscale(0);
         filter: grayscale(0);
     }
@@ -761,15 +749,13 @@ footer {
 
     /* Signup page*/
 
-    #signupform {
+    #signup-form {
         text-align: start;
         max-width: 80%;
-        position: absolute;
-        left: 5%;
-        top: 40%;
+        margin-top: 50px;
     }
 
-    #signupbutton {
+    #signup-button {
         margin-top: 20px;
         margin-left: 35%;
     }
