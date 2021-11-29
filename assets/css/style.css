@@ -242,6 +242,18 @@ color:#598392;
     border-radius: 50%;
 }
 
+#breakfastrecipes h2 {
+    border-bottom: 2px solid #598392;
+}
+
+#lunchrecipes h2 {
+    border-bottom: 2px solid #598392;
+}
+
+#dinnerrecipes h2 {
+    border-bottom: 2px solid #598392;
+}
+
 
 
 
@@ -618,11 +630,11 @@ font-size: 2rem;
     }
 
     h2 {
-        font-size:1.5rem;
+        font-size:1.8rem;
     }
 
     h3 {
-        font-size:1rem;
+        font-size:1.5rem;
     }
 
     #moftheday {
