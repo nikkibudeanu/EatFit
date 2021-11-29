@@ -118,5 +118,10 @@ Recipes were taken from the websites below:
 ### Media 
 All images/videos were taken from Pexels. 
 
+### Code 
+The box shadow code was taken from the website below:
+
+https://getcssscan.com/css-box-shadow-examples
+
 
 
