@@ -125,26 +125,28 @@ The features of EAT+FIT will include:
 # STRUCTURE
 
 * ## Navbar: 
+The navbar includes links to the below pages:
 Home, BREAKFAST, LUNCH, DINNER, About, Sign Up. 
 
 * ##  Home Page: 
 Main Video, Menu of the Day, Explore section with hyperlinked images, footer. 
+On Home page, users will be able to see the hero video, menu of the day and navigate to the breakfast, dinner and lunch pages using the navigation bar or the explore section. 
 
 * ## BREAKFAST, LUNCH, DINNER Page: 
-Recipes with ingredients, total calories and images. 
+Users will be able to explore recipes with ingredients, total calories and images. 
 
 * ## About Page
-"Who we are" and "Why eat healthy" sections.
+On this page, users will see "Who we are" and "Why eat healthy" sections along with 3 videos with beautiful healthy food/drinks. 
 
 * ## Signup Page 
-Signup form, submit button, explore section with hyperlinked images, footer. 
+On the signup page users will encounter a signup form, submit button, explore section with hyperlinked images, footer. 
 
 
 
 
 # SKELETON 
 
-Mockups were created using Balsamiq Wireframes. 
+## Mockups were created using Balsamiq Wireframes. 
 
 ![wireframe](assets/images/mockups.png)
 

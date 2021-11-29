@@ -213,15 +213,15 @@ header {
     border-radius: 50%;
 }
 
-#breakfastrecipes h2 {
+#breakfastrecipes h3{
     border-bottom: 1px solid #598392;
 }
 
-#lunchrecipes h2 {
+#lunchrecipes h3 {
     border-bottom: 1px solid #598392;
 }
 
-#dinnerrecipes h2 {
+#dinnerrecipes h3 {
     border-bottom: 1px solid #598392;
 }
 
@@ -578,21 +578,7 @@ footer {
 /* TABLET SCREENS */
 
 @media screen and (min-width: 600px) and (max-width: 1024px) {
-    p {
-        text-align: justify;
-    }
-
-    h1 {
-        font-size: 2rem;
-    }
-
-    h2 {
-        font-size: 1.8rem;
-    }
-
-    h3 {
-        font-size: 1.5rem;
-    }
+   
 
     /* header */
 
