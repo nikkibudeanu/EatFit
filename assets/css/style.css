@@ -553,6 +553,10 @@ footer {
     padding-bottom:10px;
 }
 
+.icons i:hover {
+    color:#eff6e0;
+}
+
  .icons  {
         position:absolute;
         right:5px;
@@ -750,6 +754,10 @@ and (max-width: 1024px) {
 .icons i{
     color: white;
     padding-bottom:10px;
+}
+
+.icons i:hover {
+    color:#eff6e0;
 }
 
  .icons  {
