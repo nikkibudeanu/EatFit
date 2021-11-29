@@ -431,8 +431,10 @@ footer {
     }
 
     #signupbtn {
+        position:absolute;
+        right:0;
+        padding: 10px 20px;
         font-size: 1.2rem;
-        margin-right: -20px;
         border: 2px solid #598392;
         background-color: rgba(18, 69, 89, 0.4);
         border-radius: 10px 0px 0px 10px;
@@ -625,8 +627,9 @@ footer {
     }
 
     #signupbtn {
+        position:absolute;
+        right:0;
         padding: 10px 20px;
-        margin-right: -20px;
         border: 2px solid #598392;
         background-color: rgba(18, 69, 89, 0.4);
         border-radius: 10px 0px 0px 10px;

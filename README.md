@@ -1,12 +1,12 @@
 ![EAT+FIT logo](assets/images/logo2.jpg ) 
 
 
-Eat+Fit is a website for people out there looking for a healthy recipes e-book. It is made for people who are interested in having a healthy lifestyle, who are passionate of cooking and want to find out more about nutrition. The users of this website will find breakfast, dinner and lunch healthy recipes along with the calories and ingredients needed.
+## Eat+Fit is a website for people out there looking for a healthy recipes e-book. It is made for people who are interested in having a healthy lifestyle, who are passionate of cooking and want to find out more about nutrition. The users of this website will find breakfast, dinner and lunch healthy recipes along with the calories and ingredients needed.
 
-Also, they will be able to sign for a newsletter in order to get new personalized weekly recipes on their email. The website targets all people of age 15 and above who are eating healthy and passionate of cooking.
+### Also, they will be able to sign for a newsletter in order to get new personalized weekly recipes on their email. The website targets all people of age 15 and above who are eating healthy and passionate of cooking.
 
 
-
+![Mockup](assets/images/mockup.png ) 
 
 # FEATURES
 
@@ -23,26 +23,42 @@ The navigation bar is featured on all 6 pages. The navigation bar will allow the
 On tablet and mobile screens, it switches to a bottom navigation menu. 
 
 ![Navigation bar](assets/images/nav2.png)
+
+
 ### LOGO 
 ![EAT+FIT logo](assets/images/logo2.jpg)
+
 
 The logo was created in Canva and I used the same font family as the headings "IBM PLEX SANS".
 
 ### MENU OF THE DAY
 This section is made to be changed on a daily basis and it contains a breakfast, lunch and dinner recipe of the day. It includes total calories, the recipe and images. 
 
+
 ### EXPLORE SECTION
 This section's purpose is to provide quicker access to BREAKFAST, LUNCH and DINNER pages. It contains 3 clickable images with links to the recipe pages. The Explore section is only available on tablet and desktop screens and not on mobile ones. 
 
+![explore section](assets/images/explore.png)
+
 ### FOOTER
-The footer contains icons with links to the social media platforms. On mobile and tablet screens, it switches to the side in a fixed position to allow users to quicker navigate on our social media platforms from any page. 
+The footer contains icons with links to the social media platforms. 
+
+![footer on desktop](assets/images/footer1.png)
+
+On mobile and tablet screens, it switches to the right side of the screen in a fixed position to allow users to quicker navigate on our social media platforms from any page. 
+
+![footer on mobile screens](assets/images/footer2.png)
 
 
 ### ABOUT PAGE
 This page contains a couple of videos along with "who are we" and "why eat healthy" sections which are going to help our users learn more about the purpose of this website. 
 
+![about page](assets/images/about.png)
+
 ### BREAKFAST, DINNER, LUNCH pages
 These pages are similar to each other and they include recipes along with pictures. They also contain the footer, hyperlinks section and the navigation bar. 
+
+![recipe and image example](assets/images/recipeexample.png)
 
 ### SIGN UP PAGE
 This page will allow users to sign up for a weekly newsletters with recipes. It includes a signup form where the users will have to add their last name, first name and email. 
