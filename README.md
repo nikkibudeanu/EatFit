@@ -162,7 +162,7 @@ https://coolors.co/palettes/trending/#598392
 
  ## Typography
 
-* Space Grotesk is used as the main font and IBM plex sans is the font used for the Headings.  
+* Space Grotesk is used as the main font and IBM plex sans is the font used for the Headings. For inspiration, I used the link below. 
 
 https://www.fontpair.co/pairing/space-grotesk-ibm-plex-sans
 
@@ -195,10 +195,10 @@ https://www.fontpair.co/pairing/space-grotesk-ibm-plex-sans
 
  ## Validator Testing
 
-* HTML
+* HTML:
 No errors were found when passing the W3C validator.
 
-* CSS
+* CSS:
 No errors were found when passing the W3 jigsaw validator.
 
 ![CSS VALIDATOR](assets/images/cssvalid.png)
