@@ -15,7 +15,6 @@ body {
     margin-right: 0;
 }
 
-
 p {
     font-family: "Space Grotesk", sans-serif;
     font-size: 1rem;
@@ -23,20 +22,20 @@ p {
     text-align: justify;
 }
 
-h1{
+h1 {
     font-size: 2.5rem;
     font-family: "IBM Plex Sans", sans-serif;
-    color:#1e4a5c;
+    color: #1e4a5c;
 }
 
-h2{
+h2 {
     font-size: 2rem;
     text-align: center;
     font-family: "IBM Plex Sans", sans-serif;
     color: #1e4a5c;
 }
 
-h3{
+h3 {
     font-size: 1.5rem;
     text-align: center;
     font-family: "IBM Plex Sans", sans-serif;
@@ -49,17 +48,15 @@ hr {
 
 /* header */
 
-
-header { 
+header {
     display: flex;
-        padding: 0 20px;
-        justify-content: space-between;
-        align-items: center;
-    }
-
+    padding: 0 20px;
+    justify-content: space-between;
+    align-items: center;
+}
 
 #logo img {
-   height:100px;
+    height: 100px;
 }
 
 #logo img:hover {
@@ -68,9 +65,8 @@ header {
 
 /* navigation bar */
 
-
-.navbar { 
-display: flex;
+.navbar {
+    display: flex;
     justify-content: space-around;
     flex-direction: row-reverse;
     align-items: center;
@@ -81,7 +77,6 @@ display: flex;
     margin: 8px;
 }
 
-
 .navbar a {
     display: block;
     padding: 1em;
@@ -91,14 +86,13 @@ display: flex;
     border-bottom: 1px solid #598392;
     font-family: "Space Grotesk", sans-serif;
     font-size: 1rem;
-    color:#1e4a5c;
+    color: #1e4a5c;
 }
 
 .navbar a:hover {
     color: #598392;
     font-weight: bold;
 }
-
 
 /*signup button */
 
@@ -108,7 +102,7 @@ display: flex;
     font-family: "Space Grotesk", sans-serif;
     font-weight: bold;
     display: block;
-    color:#1e4a5c;
+    color: #1e4a5c;
 }
 
 #signupbtn a:hover {
@@ -158,8 +152,6 @@ display: flex;
     font-family: "Space Grotesk", sans-serif;
 }
 
-
-
 /* menu of the day section */
 
 #moftheday p,
@@ -167,28 +159,27 @@ display: flex;
     color: #555b6e;
 }
 
-.menu-list-item{
+.menu-list-item {
     display: flex;
     width: 90%;
     align-items: center;
     justify-content: center;
-    margin: 48px auto; 
+    margin: 48px auto;
     border-bottom: 1px solid #598392;
 }
 
-
-.recipe{
+.recipe {
     padding: 50px;
-    width:50%;
+    width: 50%;
 }
 
 .image {
-    width:50%;
+    width: 50%;
 }
 
 .image img {
     max-width: 400px;
-    border-radius:10%;
+    border-radius: 10%;
 }
 
 /* breakfast, lunch, dinner page */
@@ -209,12 +200,12 @@ display: flex;
 .flexleft {
     width: 50%;
     margin-right: 20px;
-    padding:20px;
+    padding: 20px;
 }
 
-.flexright{
+.flexright {
     width: 50%;
-    padding:20px;
+    padding: 20px;
 }
 
 .recipes-list-item img {
@@ -249,8 +240,8 @@ display: flex;
     text-align: center;
 }
 
-.form-section{
-    display:flex;
+.form-section {
+    display: flex;
     justify-content: center;
 }
 
@@ -403,7 +394,7 @@ footer {
     }
 
     /* header */
-    
+
     #background h1 {
         font-size: 3rem;
     }
@@ -413,33 +404,31 @@ footer {
     }
 
     #logo img {
-        height:100px;
-     }
+        height: 100px;
+    }
 
-     
-         .navbar {
-             justify-content: center;
-             gap:0px;
-             width: 100%;
-             position: fixed;
-             bottom:-17px;
-             left:-40px;
-             background-color: rgba(18, 69, 89, 0.9);
-             z-index: 99;
-             color: white;
-         }
-     
-         .navbar a {
-             padding:15px 9px ;
-             border-right: 1px solid #598392;
-             border-bottom:none;
-             color:white;
-            
-         }
-     
-         .navbar a:hover {
-             color: white;
-         }
+    .navbar {
+        justify-content: center;
+        gap: 0px;
+        width: 100%;
+        position: fixed;
+        bottom: -17px;
+        left: -40px;
+        background-color: rgba(18, 69, 89, 0.9);
+        z-index: 99;
+        color: white;
+    }
+
+    .navbar a {
+        padding: 15px 9px;
+        border-right: 1px solid #598392;
+        border-bottom: none;
+        color: white;
+    }
+
+    .navbar a:hover {
+        color: white;
+    }
 
     #signupbtn {
         font-size: 1.2rem;
@@ -452,30 +441,30 @@ footer {
     /* menu of the day section */
 
     #moftheday {
-       width: 100%;
+        width: 100%;
+        margin: 0 auto;
     }
 
     .menu-list-item {
         flex-wrap: wrap;
         justify-content: center;
-        max-width:100%;
+        width: 100%;
+        
     }
 
-    .recipe{
+    .recipe {
         width: 100%;
     }
 
-    .image{
-        width:100%;
-        padding-bottom:30px;
+    .image {
+        width: 100%;
+        padding-bottom: 30px;
         text-align: center;
     }
 
     .image img {
         width: 300px;
     }
-
-   
 
     /* hyperlinks explore section */
 
@@ -530,20 +519,20 @@ footer {
         flex-wrap: wrap;
         text-align: center;
         margin: 0 auto;
-        width:100%;
+        width: 100%;
     }
 
     .flexleft {
         width: 100%;
     }
 
-    .flexright{
+    .flexright {
         width: 100%;
         text-align: center;
     }
 
-    .recipes-list-item img{
-        max-width:300px;
+    .recipes-list-item img {
+        max-width: 300px;
     }
 
     /* About Page */
@@ -561,7 +550,7 @@ footer {
     #aboutcontent {
         width: 90%;
         flex-wrap: wrap;
-        margin-bottom:40px;
+        margin-bottom: 40px;
     }
 
     .aboutinfo {
@@ -570,14 +559,9 @@ footer {
     }
 
     /* Signup page*/
-    #signup-form{
+    #signup-form {
         margin-bottom: 80px;
     }
-
-    {
-        margin-bottom:100px;
-    }
-    
 
     #signupbutton {
         margin-top: 20px;
@@ -610,29 +594,28 @@ footer {
 
     /* header */
 
-   #logo img {
-   height:100px;
-}
+    #logo img {
+        height: 100px;
+    }
 
-header { 
-        max-width:100%;
-        }
+    header {
+        max-width: 100%;
+    }
 
     .navbar {
         width: 100%;
         position: fixed;
-        bottom:-17px;
-        right:-30px;
+        bottom: -17px;
+        right: -30px;
         background-color: rgba(18, 69, 89, 0.9);
         z-index: 99;
         color: white;
-
     }
 
     .navbar a {
         border: 2px solid #598392;
         margin-right: 70px;
-        color:white;
+        color: white;
     }
 
     .navbar a:hover {
@@ -649,32 +632,26 @@ header {
         border-radius: 10px 0px 0px 10px;
     }
 
-    
-
     /* menu of the day section */
 
-   
+    .menu-list-item {
+        flex-wrap: wrap;
+        text-align: center;
+        margin: 0 auto;
+    }
 
-.menu-list-item{
-    flex-wrap: wrap;
-    text-align: center;
-    margin: 0 auto;
-}
+    .recipe {
+        width: 100%;
+    }
 
+    .image {
+        width: 100%;
+    }
 
-.recipe{
-    width:100%;
-}
-
-.image {
-    width:100%;
-}
-
-.image img {
-    max-width: 400px;
-    border-radius:10%;
-}
-
+    .image img {
+        max-width: 400px;
+        border-radius: 10%;
+    }
 
     /* hyperlinks explore section */
 
@@ -727,8 +704,8 @@ header {
         width: 100%;
     }
 
-    .flexright{
-        width:100%;
+    .flexright {
+        width: 100%;
     }
 
     /* About Page */

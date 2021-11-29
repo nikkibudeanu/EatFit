@@ -1,4 +1,4 @@
-![EAT+FIT logo](assets/images/logo.jpg ) 
+![EAT+FIT logo](assets/images/logo2.jpg ) 
 
 
 Eat+Fit is a website for people out there looking for a healthy recipes e-book. It is made for people who are interested in having a healthy lifestyle, who are passionate of cooking and want to find out more about nutrition. The users of this website will find breakfast, dinner and lunch healthy recipes along with the calories and ingredients needed.
@@ -24,7 +24,7 @@ On tablet and mobile screens, it switches to a bottom navigation menu.
 
 ![Navigation bar](assets/images/nav2.png)
 ### LOGO 
-![EAT+FIT logo](assets/images/logo.jpg)
+![EAT+FIT logo](assets/images/logo2.jpg)
 
 The logo was created in Canva and I used the same font family as the headings "IBM PLEX SANS".
 
