@@ -221,6 +221,7 @@ color:#598392;
     align-items: center;
     justify-content: space-between;
     margin: 48px auto;
+    text-align: justify;
 }
 
 .recipes-list-item:nth-child(even) {
@@ -230,7 +231,9 @@ color:#598392;
 
 .flexleft{
     width:80%;
+    margin-right:20px;
 }
+
 
 
 
