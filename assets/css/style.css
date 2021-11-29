@@ -241,15 +241,15 @@ color:#598392;
 }
 
 #breakfastrecipes h2 {
-    border-bottom: 2px solid #598392;
+    border-bottom: 1px solid #598392;
 }
 
 #lunchrecipes h2 {
-    border-bottom: 2px solid #598392;
+    border-bottom: 1px solid #598392;
 }
 
 #dinnerrecipes h2 {
-    border-bottom: 2px solid #598392;
+    border-bottom: 1px solid #598392;
 }
 
 
@@ -746,7 +746,7 @@ and (max-width: 1024px) {
     footer hr {
         display:none;
     }
-    
+
 .icons i{
     color: white;
     padding-bottom:10px;
