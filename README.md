@@ -172,8 +172,6 @@ https://www.fontpair.co/pairing/space-grotesk-ibm-plex-sans
 * The website consists of more than 20 images downloaded from Pexels. The main video was selected because it is bright and settles the mood of the websites. 
 
 
-
-
 # TESTING
 * I tested Eat+fit on various browsers: Safari, Google Chrome, Mozilla Firefox. 
 * I confirmed that all the website features are easy to understand and readable. 
