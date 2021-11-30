@@ -79,9 +79,9 @@ Link: https://nikkibudeanu.github.io/my-first-project/signup.html
 
 ![sign-up page](assets/images/form.png)
 
+# UX
 
-
-# STRATEGY 
+# 1.STRATEGY 
 
 ## User stories:
 
@@ -112,7 +112,7 @@ The target user is:
 * Gather a community through newsletter and share recipes with them on a weekly basis. 
 
 
-# SCOPE
+# 2. SCOPE
 The features of EAT+FIT will include:
 
 * The ability to explore healthy breakfast, lunch and dinner recipes.
@@ -122,7 +122,7 @@ The features of EAT+FIT will include:
 
 
 
-# STRUCTURE
+# 3. STRUCTURE
 
 * ## Navbar: 
 The navbar includes links to the below pages:
@@ -144,13 +144,13 @@ On the signup page users will encounter a signup form, submit button, explore se
 
 
 
-# SKELETON 
+# 4. SKELETON 
 
 ## Mockups were created using Balsamiq Wireframes. 
 
 ![wireframe](assets/images/mockups.png)
 
-# SURFACE 
+# 5. SURFACE 
 
 
  ## Color 
@@ -186,11 +186,11 @@ https://www.fontpair.co/pairing/space-grotesk-ibm-plex-sans
 ## Signup Page:
 ![Lighthouse report](assets/images/report1.png)
 
-## Breakfast Page:
-![Lighthouse report](assets/images/report3.png)
+## Breakfast Page:
+![Lighthouse report](assets/images/report4.png)
 
 ## About Page:
-![Lighthouse report](assets/images/report4.png)
+![Lighthouse report](assets/images/report3.png)
 
 * I confirmed the form works on mobile and desktop screen. It has entry requirements and the submit button is functionable. 
 
