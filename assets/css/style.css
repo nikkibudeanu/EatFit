@@ -409,6 +409,10 @@ footer {
         height: 100px;
     }
 
+    #main-video{
+        display:none;
+    }
+
     .navbar {
         justify-content: center;
         gap: 0px;
