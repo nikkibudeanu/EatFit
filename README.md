@@ -19,7 +19,7 @@ The main page of EAT+FIT consists of a navigation bar, a menu of the day which c
 
 ![Navigation bar](assets/images/homepage.png)
 
-Link: https://nikkibudeanu.github.io/my-first-project/index.html
+Link: https://github.com/nikkibudeanu/EatFit
 
 * ## NAVIGATION BAR 
 The navigation bar is featured on all 6 pages. The navigation bar will allow the user to easily navigate from page to page across all devices without the need to use the ‘back’ button. It includes links to all 6 pages and a logo(created by me). It is identical on all pages in order to ensure consistency and a positive user experience.
